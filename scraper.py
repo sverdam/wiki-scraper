@@ -8,9 +8,11 @@ import re
 from urllib.parse import urljoin
 from urllib.error import HTTPError, URLError
 
+import time
+
 url = "https://deltarune.wiki/"
 
-def getLinks(aUrl):
+def getSoup(aUrl):
     req = Request(
         aUrl,
         headers={
@@ -24,6 +26,10 @@ def getLinks(aUrl):
 
     html = urlopen(req)
     bs = BeautifulSoup(html.read(), "html.parser")
+    return bs
+
+def getLinks(aUrl):
+    bs = getSoup(aUrl)
     return bs.find('div').find_all('a')
 
 links = getLinks(url)
