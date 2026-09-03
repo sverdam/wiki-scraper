@@ -42,6 +42,7 @@ def getSections(aUrl):
     categories = [li.text for li in categoriesListItems]
     # print(categoriesListItems)
     print(categories, end='\n\n')
+    return categories
 
 links = getLinks(url)
 
