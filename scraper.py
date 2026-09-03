@@ -32,13 +32,29 @@ def getLinks(aUrl):
     bs = getSoup(aUrl)
     return bs.find('div').find_all('a')
 
+def getSections(aUrl):
+    bs = getSoup(aUrl)
+    categoryDiv = bs.find(class_="utw-page-categories")
+    if categoryDiv == None:
+        return []
+    categoriesListItems = categoryDiv.find_all("li")
+
+    categories = [li.text for li in categoriesListItems]
+    # print(categoriesListItems)
+    print(categories, end='\n\n')
+
 links = getLinks(url)
 
 while len(links) > 0:
         link = links[random.randint(0, len(links) - 1)]
         newArticle = urljoin(url, link.attrs['href'])
 
-        print(newArticle)
+        print(newArticle, end='\t')
 
         url = newArticle
         links = getLinks(url)
+        print(f'({len(links)})')
+
+        getSections(newArticle)
+        time.sleep(0.5)
+
