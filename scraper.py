@@ -45,6 +45,20 @@ def getSections(bs):
     print(categories, end='\n\n')
     return categories
 
+def isCharacter(aUrl, categories):
+    
+    if not ("Characters" in categories or "Main characters" in categories):
+        return False
+    split = url.split('/')
+    if len(split) <= 0:
+        return False
+    
+    character = split[-1]
+    if not(character in characters) and not ("Category" in character):
+        return True
+    return False
+
+
 links = getLinks(getSoup(url))
 
 while len(characters) < 10:
@@ -61,12 +75,10 @@ while len(characters) < 10:
         print(f"({len(links)})")
         categories = getSections(soup)
 
-        if "Characters" in categories or "Main characters" in categories:
+        if isCharacter(url, categories):
             split = url.split('/')
-            if len(split) > 0:
-                charater = split[-1]
-                if not(character in characters) and not ("Category" in character):
-                    characters.append(character)
+            character = split[-1]
+            characters.append(character)
 
         if len(links) <= 0:
             url = "https://deltarune.wiki/w/Category:Characters"
