@@ -61,10 +61,10 @@
 
         async function loadQuestions() {
             try {
-                const response = await fetch("questions.json");
+                const response = await fetch("../dummyQuestions.json");
 
                 if (!response.ok) {
-                    throw new Error("Could not load questions.json");
+                    throw new Error("Could not load json");
                 }
 
                 questions = await response.json();
