@@ -1,293 +1,513 @@
 [
     {
-        "answer": "alternate form",
+        "answer": "former name",
         "options": [
-            "alternate form",
-            "King",
-            "Toriel, Noelle",
-            "Lancer"
+            "former name",
+            "unused prophecy panel",
+            "signature, Clover",
+            "game files"
         ],
-        "question": "Who calls Spamton 'Spamton NEO'?"
-    },
-    {
-        "answer": "Queen's Mansion",
-        "options": [
-            "Queen's Mansion",
-            "n",
-            "Cliffs",
-            "a"
-        ],
-        "question": "Where does Spamton appears?"
-    },
-    {
-        "answer": "possible former associate",
-        "options": [
-            "possible former associate",
-            "younger brother",
-            "close friend, academic partner",
-            "younger sister"
-        ],
-        "question": "What is Mike's relationship to Spamton?"
-    },
-    {
-        "answer": "Lord of the Hammer",
-        "options": [
-            "Lord of the Hammer",
-            "concept art",
-            "game files",
-            "Jigsawry, Catti"
-        ],
-        "question": "Who calls Old_Man 'A great smith'?"
-    },
-    {
-        "answer": "3rd Sanctuary",
-        "options": [
-            "3rd Sanctuary",
-            "Hometown",
-            "t",
-            "n"
-        ],
-        "question": "Where does Old_Man appears?"
-    },
-    {
-        "answer": "relative",
-        "options": [
-            "relative",
-            "daughter",
-            "father",
-            "friend, teammate"
-        ],
-        "question": "What is Ms. Boom's relationship to Old_Man?"
-    },
-    {
-        "answer": "Seam, Spamton, King",
-        "options": [
-            "Seam, Spamton, King",
-            "alternate form",
-            "Lord of the Hammer",
-            "concept art"
-        ],
-        "question": "Who calls Jevil 'Clown'?"
-    },
-    {
-        "answer": "(",
-        "options": [
-            "(",
-            "H",
-            "Garden",
-            "Cyber City"
-        ],
-        "question": "Where does Jevil appears?"
-    },
-    {
-        "answer": "Cliffs",
-        "options": [
-            "Cliffs",
-            "Cyber City",
-            "Cold Place",
-            "Field"
-        ],
-        "question": "Where does 7_Colored_Flowers appears?"
-    },
-    {
-        "answer": "caretaker",
-        "options": [
-            "caretaker",
-            "friend, adoptive sister to Orange",
-            "former co-worker",
-            "childhood friend/implied love interest"
-        ],
-        "question": "What is Asgore's relationship to 7_Colored_Flowers?"
-    },
-    {
-        "answer": "Orange",
-        "options": [
-            "Orange",
-            "Spamton",
-            "prophecy",
-            "signature"
-        ],
-        "question": "Who calls Flowery 'Big bro'?"
+        "question": "Who calls Flowery 'Gold'?"
     },
     {
         "answer": "Garden",
         "options": [
             "Garden",
-            "TV World",
+            "Cold Place",
             "Hometown",
-            "H"
+            "Queen's Mansion"
         ],
-        "question": "Where does Flowery appears?"
+        "question": "Where does Flowery appear?"
     },
     {
-        "answer": "friend, younger sister",
+        "answer": "friend, dance rival",
         "options": [
-            "friend, younger sister",
-            "former role model",
-            "childhood friend",
-            "former companions"
+            "friend, dance rival",
+            "daughter",
+            "son",
+            "co-worker"
         ],
-        "question": "What is Orange's relationship to Flowery?"
+        "question": "What is Blue's relationship to Flowery?"
     },
     {
-        "answer": "himself",
+        "answer": "Queen, Ms. Boom",
         "options": [
-            "himself",
-            "Jigsawry, Catti",
-            "prophecy",
-            "signature"
+            "Queen, Ms. Boom",
+            "TV Time",
+            "game files",
+            "Lord of the Hammer"
         ],
-        "question": "Who calls Lancer 'The bad guy'?"
+        "question": "Who calls Berdly 'Burghley'?"
     },
     {
-        "answer": "Queen's Mansion",
+        "answer": "Cyber Field",
         "options": [
-            "Queen's Mansion",
-            "o",
             "Cyber Field",
-            "Hometown"
-        ],
-        "question": "Where does Lancer appears?"
-    },
-    {
-        "answer": "\"lesser dad\"",
-        "options": [
-            "\"lesser dad\"",
-            "love interest",
-            "younger sister",
-            "former partner"
-        ],
-        "question": "What is Rouxls Kaard's relationship to Lancer?"
-    },
-    {
-        "answer": "e",
-        "options": [
-            "e",
             "Castle Town",
             "Flower Castle",
-            "Forest"
+            "Cold Place"
         ],
-        "question": "Where does Special:Random appears?"
+        "question": "Where does Berdly appear?"
     },
     {
-        "answer": "Rudy",
+        "answer": "close friend, academic partner",
         "options": [
-            "Rudy",
-            "Spamton",
-            "intro video",
-            "himself"
-        ],
-        "question": "Who calls Berdly 'Nerdly'?"
-    },
-    {
-        "answer": "Cyber City",
-        "options": [
-            "Cyber City",
-            "The Legend of Tenna",
-            "o",
-            "t"
-        ],
-        "question": "Where does Berdly appears?"
-    },
-    {
-        "answer": "former role model",
-        "options": [
-            "former role model",
-            "former love interest",
-            "son",
-            "childhood friend"
-        ],
-        "question": "What is Queen's relationship to Berdly?"
-    },
-    {
-        "answer": "Toriel, Noelle",
-        "options": [
-            "Toriel, Noelle",
-            "Seth",
-            "himself",
-            "Asgore"
-        ],
-        "question": "Who calls Sans 'Mr. Sans'?"
-    },
-    {
-        "answer": "e",
-        "options": [
-            "e",
-            "Cliffs",
-            "Cyber Field",
-            "Card Castle"
-        ],
-        "question": "Where does Sans appears?"
-    },
-    {
-        "answer": "younger brother",
-        "options": [
-            "younger brother",
-            "former enemies, friends",
-            "younger sister",
-            "previously frequent viewers"
-        ],
-        "question": "What is Papyrus' relationship to Sans?"
-    },
-    {
-        "answer": "childhood friend",
-        "options": [
-            "childhood friend",
+            "close friend, academic partner",
             "friend",
-            "friend, teammate",
-            "former love interest"
+            "enemy, former boss",
+            "adoptive sibling"
         ],
-        "question": "What is Kris' relationship to Dess?"
+        "question": "What is Noelle's relationship to Berdly?"
+    },
+    {
+        "answer": "game files",
+        "options": [
+            "game files",
+            "signature, Clover",
+            "in battle",
+            "himself, Elnina"
+        ],
+        "question": "Who calls Special:Random 'catti_dad'?"
     },
     {
         "answer": "Hometown",
         "options": [
             "Hometown",
-            "o",
-            "n",
-            "a"
+            "Castle Town",
+            "Cliffs",
+            "Cold Place"
         ],
-        "question": "Where does Undyne appears?"
+        "question": "Where does Special:Random appear?"
     },
     {
-        "answer": "former co-worker",
+        "answer": "daughter",
         "options": [
-            "former co-worker",
-            "former partner",
-            "former rival, likely one-sided",
-            "caretaker"
+            "daughter",
+            "teasingly hostile",
+            "close friend, academic partner",
+            "friend, teammate"
         ],
-        "question": "What is Asgore's relationship to Undyne?"
+        "question": "What is Catti's relationship to Special:Random?"
     },
     {
-        "answer": "TV Time",
+        "answer": "prophecy",
         "options": [
-            "TV Time",
-            "Jigsawry, Catti",
             "prophecy",
+            "himself",
+            "signature, Clover",
+            "in battle"
+        ],
+        "question": "Who calls Queen 'THE QUEEN'?"
+    },
+    {
+        "answer": "Queen's Mansion",
+        "options": [
+            "Queen's Mansion",
+            "Hometown",
+            "Cold Place",
+            "The Legend of Tenna"
+        ],
+        "question": "Where does Queen appear?"
+    },
+    {
+        "answer": "close friend, ex-minion",
+        "options": [
+            "close friend, ex-minion",
+            "close friend, academic partner",
+            "friend",
+            "possible love interest"
+        ],
+        "question": "What is Noelle's relationship to Queen?"
+    },
+    {
+        "answer": "Cold Place",
+        "options": [
+            "Cold Place",
+            "Original Game",
+            "Garden",
+            "The Legend of Tenna"
+        ],
+        "question": "Where does Toriel appear?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "forced employee",
+            "co-worker",
+            "love interest"
+        ],
+        "question": "What is Sans' relationship to Toriel?"
+    },
+    {
+        "answer": "signature, Clover",
+        "options": [
+            "signature, Clover",
+            "game files",
+            "Old Man",
+            "Flowery"
+        ],
+        "question": "Who calls Rouxls_Kaard 'RK'?"
+    },
+    {
+        "answer": "Card Castle",
+        "options": [
+            "Card Castle",
+            "3rd Sanctuary",
+            "Cliffs",
+            "Cyber Field"
+        ],
+        "question": "Where does Rouxls_Kaard appear?"
+    },
+    {
+        "answer": "enemy, former boss",
+        "options": [
+            "enemy, former boss",
+            "daughter",
+            "friend, teammate",
+            "friend"
+        ],
+        "question": "What is King's relationship to Rouxls_Kaard?"
+    },
+    {
+        "answer": "Pink's body",
+        "options": [
+            "Pink's body",
+            "Lancer",
+            "unused prophecy panel",
+            "Toriel"
+        ],
+        "question": "Who calls FRIEND 'Cat'?"
+    },
+    {
+        "answer": "Garden",
+        "options": [
+            "Garden",
+            "Cold Place",
+            "Hometown",
+            "The Legend of Tenna"
+        ],
+        "question": "Where does FRIEND appear?"
+    },
+    {
+        "answer": "Flowery",
+        "options": [
+            "Flowery",
+            "Lord of the Hammer",
+            "Faw Faw",
+            "himself, Elnina"
+        ],
+        "question": "Who calls Asgore 'Oldbuddy'?"
+    },
+    {
+        "answer": "Top of Castle",
+        "options": [
+            "Top of Castle",
+            "Cold Place",
+            "Queen's Mansion",
+            "Original Game"
+        ],
+        "question": "Where does Asgore appear?"
+    },
+    {
+        "answer": "ex-wife",
+        "options": [
+            "ex-wife",
+            "employer",
+            "former co-worker",
+            "enemy, former boss"
+        ],
+        "question": "What is Toriel's relationship to Asgore?"
+    },
+    {
+        "answer": "prophecy",
+        "options": [
+            "prophecy",
+            "signature, Clover",
+            "King",
+            "game files"
+        ],
+        "question": "Who calls Susie 'THE GIRL'?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "employees",
+            "friend, gaming rival, former love interest nominee",
+            "friend, teammate"
+        ],
+        "question": "What is Lancer's relationship to Susie?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Flower Castle",
+            "Dark Sanctuary",
+            "3rd Sanctuary"
+        ],
+        "question": "Where does Rudy appear?"
+    },
+    {
+        "answer": "daughter",
+        "options": [
+            "daughter",
+            "adoptive sibling",
+            "younger brother",
+            "mother"
+        ],
+        "question": "What is Dess' relationship to Rudy?"
+    },
+    {
+        "answer": "Dad Cat",
+        "options": [
+            "Dad Cat",
+            "game files",
+            "Susie, Rudy",
+            "Lancer"
+        ],
+        "question": "Who calls Asriel 'Doug/Douglas'?"
+    },
+    {
+        "answer": "father",
+        "options": [
+            "father",
+            "friend, teammate",
+            "childhood friend",
+            "co-worker"
+        ],
+        "question": "What is Asgore's relationship to Asriel?"
+    },
+    {
+        "answer": "unused prophecy panel",
+        "options": [
+            "unused prophecy panel",
+            "title",
+            "game files",
+            "Lord of the Hammer"
+        ],
+        "question": "Who calls Old_Man 'THE TORTOISE'?"
+    },
+    {
+        "answer": "3rd Sanctuary",
+        "options": [
+            "3rd Sanctuary",
+            "Flower Castle",
+            "Hometown",
+            "Cyber Field"
+        ],
+        "question": "Where does Old_Man appear?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Queen's Mansion",
+            "Dark Sanctuary",
+            "Cyber Field"
+        ],
+        "question": "Where does Undyne appear?"
+    },
+    {
+        "answer": "co-worker",
+        "options": [
+            "co-worker",
+            "close friend, academic partner",
+            "friend",
+            "daughter"
+        ],
+        "question": "What is Napstablook's relationship to Undyne?"
+    },
+    {
+        "answer": "Toriel, Noelle",
+        "options": [
+            "Toriel, Noelle",
+            "himself",
+            "Susie",
+            "game files in Chapter 3"
+        ],
+        "question": "Who calls Sans 'Mr. Sans'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Queen's Mansion",
+            "TV Studio",
+            "Cyber City"
+        ],
+        "question": "Where does Sans appear?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "wife",
+            "childhood friend/implied love interest",
+            "son"
+        ],
+        "question": "What is Toriel's relationship to Sans?"
+    },
+    {
+        "answer": "mother",
+        "options": [
+            "mother",
+            "wife",
+            "childhood friend/implied love interest",
+            "friend"
+        ],
+        "question": "What is Carol's relationship to Dess?"
+    },
+    {
+        "answer": "former name",
+        "options": [
+            "former name",
+            "Flowery",
+            "Noelle",
+            "prophecy"
+        ],
+        "question": "Who calls Flowery 'Gold'?"
+    },
+    {
+        "answer": "Flower Castle",
+        "options": [
+            "Flower Castle",
+            "Cyber Field",
+            "Cold Place",
+            "Hometown"
+        ],
+        "question": "Where does Flowery appear?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "love interest",
+            "father",
+            "former love interest"
+        ],
+        "question": "What is Aqua's relationship to Flowery?"
+    },
+    {
+        "answer": "Queen, Ms. Boom",
+        "options": [
+            "Queen, Ms. Boom",
+            "unused prophecy panel",
+            "Toriel",
             "Spamton"
         ],
-        "question": "Who calls Susie 'ASS'?"
+        "question": "Who calls Berdly 'Burghley'?"
     },
     {
-        "answer": "friend, teammate",
+        "answer": "Queen's Mansion",
         "options": [
-            "friend, teammate",
-            "best friend, \"college roommate\"",
-            "adoptive mother/\"girldad\"",
-            "childhood friend"
+            "Queen's Mansion",
+            "Garden",
+            "Castle Town",
+            "TV Studio"
         ],
-        "question": "What is Kris' relationship to Susie?"
+        "question": "Where does Berdly appear?"
     },
     {
-        "answer": "Monster Movie",
+        "answer": "close friend, academic partner",
         "options": [
-            "Monster Movie",
-            "King",
-            "unused prophecy panel",
-            "Rudy"
+            "close friend, academic partner",
+            "friend",
+            "possible love interest",
+            "former co-worker"
         ],
-        "question": "Who calls Tenna 'TV statue'?"
+        "question": "What is Noelle's relationship to Berdly?"
+    },
+    {
+        "answer": "game files",
+        "options": [
+            "game files",
+            "prophecy",
+            "Susie",
+            "Toriel"
+        ],
+        "question": "Who calls Special:Random 'catti_dad'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Dark Sanctuary",
+            "Cyber City",
+            "Queen's Mansion"
+        ],
+        "question": "Where does Special:Random appear?"
+    },
+    {
+        "answer": "daughter",
+        "options": [
+            "daughter",
+            "wife",
+            "relative",
+            "friend, dance rival"
+        ],
+        "question": "What is Catty's relationship to Special:Random?"
+    },
+    {
+        "answer": "Jevil\u2014presumably",
+        "options": [
+            "Jevil\u2014presumably",
+            "Lord of the Hammer",
+            "Spamton",
+            "game files"
+        ],
+        "question": "Who calls Queen 'THE \"QUEEN\"'?"
+    },
+    {
+        "answer": "Queen's Mansion",
+        "options": [
+            "Queen's Mansion",
+            "Hometown",
+            "Flower Castle",
+            "Cold Place"
+        ],
+        "question": "Where does Queen appear?"
+    },
+    {
+        "answer": "close friend, ex-minion",
+        "options": [
+            "close friend, ex-minion",
+            "friend",
+            "close friend, academic partner",
+            "younger sister"
+        ],
+        "question": "What is Noelle's relationship to Queen?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Queen's Mansion",
+            "TV World",
+            "3rd Sanctuary"
+        ],
+        "question": "Where does Toriel appear?"
+    },
+    {
+        "answer": "ex-husband",
+        "options": [
+            "ex-husband",
+            "\"lesser dad\"/\"vice father\" of",
+            "former co-worker",
+            "friend"
+        ],
+        "question": "What is Asgore's relationship to Toriel?"
+    },
+    {
+        "answer": "himself",
+        "options": [
+            "himself",
+            "in battle",
+            "game files",
+            "Dad Cat"
+        ],
+        "question": "Who calls Rouxls_Kaard 'Duke of Puzzles'?"
     },
     {
         "answer": "TV World",
@@ -295,107 +515,127 @@
             "TV World",
             "Hometown",
             "Cold Place",
-            "Forest"
+            "3rd Sanctuary"
         ],
-        "question": "Where does Tenna appears?"
+        "question": "Where does Rouxls_Kaard appear?"
     },
     {
-        "answer": "owner, optionally",
+        "answer": "ex-lover",
         "options": [
-            "owner, optionally",
-            "previously frequent viewers",
-            "possible love interest",
-            "prot\u00e9g\u00e9"
-        ],
-        "question": "What is Nobody's relationship to Tenna?"
-    },
-    {
-        "answer": "o",
-        "options": [
-            "o",
-            "Garden",
-            "Cyber City",
-            "TV World"
-        ],
-        "question": "Where does Carol appears?"
-    },
-    {
-        "answer": "unknown",
-        "options": [
-            "unknown",
-            "former employees",
+            "ex-lover",
             "friend, younger sister",
-            "love interest"
+            "wife",
+            "enemy, former boss"
         ],
-        "question": "What is Kris' relationship to Carol?"
+        "question": "What is Elnina's relationship to Rouxls_Kaard?"
     },
     {
-        "answer": "Lancer",
+        "answer": "game files",
         "options": [
-            "Lancer",
-            "signature",
-            "King",
-            "prophecy"
-        ],
-        "question": "Who calls Noelle 'Soft cream'?"
-    },
-    {
-        "answer": "Cyber Field",
-        "options": [
-            "Cyber Field",
-            "m",
-            "s",
-            "Garden"
-        ],
-        "question": "Where does Noelle appears?"
-    },
-    {
-        "answer": "mother",
-        "options": [
-            "mother",
-            "friend",
-            "adoptive mother/\"girldad\"",
-            "previously frequent viewers"
-        ],
-        "question": "What is Carol's relationship to Noelle?"
-    },
-    {
-        "answer": "alternate form",
-        "options": [
-            "alternate form",
+            "game files",
             "Rudy",
-            "Spamton",
-            "Catty"
+            "Flowery",
+            "Jevil\u2014presumably"
         ],
-        "question": "Who calls Spamton 'Spamton NEO'?"
+        "question": "Who calls FRIEND 'IMAGE_FRIEND'?"
     },
     {
-        "answer": "Cyber City",
+        "answer": "Queen's Mansion",
         "options": [
-            "Cyber City",
-            "The Legend of Tenna",
-            "Top of Castle",
-            "Hometown"
+            "Queen's Mansion",
+            "Dark Sanctuary",
+            "Hometown",
+            "Flower Castle"
         ],
-        "question": "Where does Spamton appears?"
+        "question": "Where does FRIEND appear?"
     },
     {
-        "answer": "former partner",
+        "answer": "Flowery",
         "options": [
-            "former partner",
-            "friend, teammate",
-            "childhood friend",
-            "possible love interest"
+            "Flowery",
+            "Jevil\u2014presumably",
+            "Alphys, Asgore, Tenna",
+            "Pink's body"
         ],
-        "question": "What is Tenna's relationship to Spamton?"
+        "question": "Who calls Asgore 'Gorey'?"
+    },
+    {
+        "answer": "Garden",
+        "options": [
+            "Garden",
+            "Cold Place",
+            "Queen's Mansion",
+            "Card Castle"
+        ],
+        "question": "Where does Asgore appear?"
+    },
+    {
+        "answer": "friend, \"college roommate\"",
+        "options": [
+            "friend, \"college roommate\"",
+            "adoptive child",
+            "daughter",
+            "former co-worker"
+        ],
+        "question": "What is Flowery's relationship to Asgore?"
+    },
+    {
+        "answer": "prophecy",
+        "options": [
+            "prophecy",
+            "himself",
+            "Dogamy",
+            "Noelle"
+        ],
+        "question": "Who calls Susie 'THE GIRL'?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "enemy, former boss",
+            "associate",
+            "mother"
+        ],
+        "question": "What is Lancer's relationship to Susie?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Cold Place",
+            "Queen's Mansion",
+            "Cyber Field"
+        ],
+        "question": "Where does Rudy appear?"
+    },
+    {
+        "answer": "daughter",
+        "options": [
+            "daughter",
+            "best friend",
+            "father",
+            "son"
+        ],
+        "question": "What is Dess' relationship to Rudy?"
+    },
+    {
+        "answer": "adoptive sibling",
+        "options": [
+            "adoptive sibling",
+            "friend, gaming rival, former love interest nominee",
+            "daughter",
+            "former love interest"
+        ],
+        "question": "What is Kris' relationship to Asriel?"
     },
     {
         "answer": "in battle",
         "options": [
             "in battle",
-            "SAVE point",
-            "former name",
-            "Spamton"
+            "Orange",
+            "game files",
+            "Flowery"
         ],
         "question": "Who calls Old_Man 'Hammer of Justice'?"
     },
@@ -403,139 +643,509 @@
         "answer": "3rd Sanctuary",
         "options": [
             "3rd Sanctuary",
-            "Castle Town",
-            "Queen's Mansion",
-            "o"
-        ],
-        "question": "Where does Old_Man appears?"
-    },
-    {
-        "answer": "son",
-        "options": [
-            "son",
-            "daughter",
-            "caretaker",
-            "former companions"
-        ],
-        "question": "What is Alvin's relationship to Old_Man?"
-    },
-    {
-        "answer": "game files",
-        "options": [
-            "game files",
-            "concept art",
-            "Seth",
-            "Lancer"
-        ],
-        "question": "Who calls Jevil 'joker'?"
-    },
-    {
-        "answer": "?",
-        "options": [
-            "?",
+            "Cold Place",
             "Hometown",
-            "Top of Castle",
-            "Garden"
+            "Flower Castle"
         ],
-        "question": "Where does Jevil appears?"
+        "question": "Where does Old_Man appear?"
     },
     {
-        "answer": "Garden",
+        "answer": "relative",
         "options": [
-            "Garden",
-            "t",
-            "TV World",
+            "relative",
+            "daughter",
+            "adopted child",
+            "younger brother"
+        ],
+        "question": "What is Ms. Boom's relationship to Old_Man?"
+    },
+    {
+        "answer": "Dogamy",
+        "options": [
+            "Dogamy",
+            "Queen, Ms. Boom",
+            "Susie",
+            "Seth"
+        ],
+        "question": "Who calls Undyne 'Ol' pointy teeth'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Cliffs",
+            "Castle Town",
             "Cyber City"
         ],
-        "question": "Where does 7_Colored_Flowers appears?"
+        "question": "Where does Undyne appear?"
     },
     {
-        "answer": "friend, adoptive sister to Orange",
+        "answer": "former co-worker",
         "options": [
-            "friend, adoptive sister to Orange",
-            "childhood friend",
-            "co-worker",
-            "caretaker"
+            "former co-worker",
+            "best friend",
+            "wife",
+            "friend, teammate"
         ],
-        "question": "What is Pink's relationship to 7_Colored_Flowers?"
+        "question": "What is Asgore's relationship to Undyne?"
     },
     {
-        "answer": "Floradinn",
+        "answer": "himself",
         "options": [
-            "Floradinn",
-            "prophecy",
-            "former name",
-            "himself"
+            "himself",
+            "game files",
+            "full name",
+            "Dogamy"
         ],
-        "question": "Who calls Flowery 'Master Flowery'?"
+        "question": "Who calls Sans 'sans the skeleton'?"
     },
     {
-        "answer": "Top of Castle",
+        "answer": "Hometown",
         "options": [
-            "Top of Castle",
-            "TV World",
-            "Queen's Mansion",
-            "Cyber City"
+            "Hometown",
+            "Cold Place",
+            "Flower Castle",
+            "3rd Sanctuary"
         ],
-        "question": "Where does Flowery appears?"
+        "question": "Where does Sans appear?"
     },
     {
         "answer": "friend",
         "options": [
             "friend",
-            "husband",
-            "mentor",
-            "\"lesser dad\""
+            "love interest",
+            "younger brother",
+            "relative"
+        ],
+        "question": "What is Toriel's relationship to Sans?"
+    },
+    {
+        "answer": "mother",
+        "options": [
+            "mother",
+            "friend",
+            "possible love interest",
+            "daughter"
+        ],
+        "question": "What is Carol's relationship to Dess?"
+    },
+    {
+        "answer": "Orange",
+        "options": [
+            "Orange",
+            "himself",
+            "game files",
+            "Toriel"
+        ],
+        "question": "Who calls Flowery 'Big bro'?"
+    },
+    {
+        "answer": "Cliffs",
+        "options": [
+            "Cliffs",
+            "Hometown",
+            "3rd Sanctuary",
+            "Queen's Mansion"
+        ],
+        "question": "Where does Flowery appear?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "father",
+            "younger brother",
+            "forced employee"
         ],
         "question": "What is Aqua's relationship to Flowery?"
     },
     {
-        "answer": "prophecy",
+        "answer": "Queen, Ms. Boom",
         "options": [
-            "prophecy",
-            "signature",
-            "Spamton",
-            "game files"
+            "Queen, Ms. Boom",
+            "Dogamy",
+            "game files",
+            "himself, Elnina"
         ],
-        "question": "Who calls Lancer 'THE POINTY-HEADED'?"
+        "question": "Who calls Berdly 'Burghley'?"
     },
     {
-        "answer": "Field",
+        "answer": "Cyber Field",
         "options": [
-            "Field",
-            "C",
-            "o",
-            "n"
+            "Cyber Field",
+            "Dark Sanctuary",
+            "Card Castle",
+            "3rd Sanctuary"
         ],
-        "question": "Where does Lancer appears?"
+        "question": "Where does Berdly appear?"
     },
     {
-        "answer": "adoptive mother/\"girldad\"",
+        "answer": "friend, gaming rival, former love interest nominee",
         "options": [
-            "adoptive mother/\"girldad\"",
-            "former enemies, friends",
-            "co-worker",
-            "childhood friend"
+            "friend, gaming rival, former love interest nominee",
+            "friend",
+            "mother",
+            "ex-lover"
         ],
-        "question": "What is Queen's relationship to Lancer?"
+        "question": "What is Kris' relationship to Berdly?"
     },
     {
-        "answer": "n",
+        "answer": "game files",
         "options": [
-            "n",
+            "game files",
+            "Asgore",
+            "Toriel",
+            "Noelle"
+        ],
+        "question": "Who calls Special:Random 'catti_dad'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Cyber City",
+            "Castle Town",
+            "Cliffs"
+        ],
+        "question": "Where does Special:Random appear?"
+    },
+    {
+        "answer": "wife",
+        "options": [
+            "wife",
+            "friend, teammate",
+            "friend",
+            "son"
+        ],
+        "question": "What is Mom Cat's relationship to Special:Random?"
+    },
+    {
+        "answer": "full name",
+        "options": [
+            "full name",
+            "Asgore",
+            "Toriel",
+            "Lord of the Hammer"
+        ],
+        "question": "Who calls Queen 'Serial Number Q5U4EX7YY2E9N'?"
+    },
+    {
+        "answer": "Queen's Mansion",
+        "options": [
             "Queen's Mansion",
-            "d",
-            "?"
+            "Hometown",
+            "Cold Place",
+            "3rd Sanctuary"
         ],
-        "question": "Where does Special:Random appears?"
+        "question": "Where does Queen appear?"
+    },
+    {
+        "answer": "forced employee",
+        "options": [
+            "forced employee",
+            "friend",
+            "wife",
+            "relative"
+        ],
+        "question": "What is Ralsei's relationship to Queen?"
+    },
+    {
+        "answer": "Susie",
+        "options": [
+            "Susie",
+            "game files",
+            "Flowery",
+            "Queen, Ms. Boom"
+        ],
+        "question": "Who calls Toriel 'Snoriel'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Garden",
+            "3rd Sanctuary",
+            "Flower Castle"
+        ],
+        "question": "Where does Toriel appear?"
+    },
+    {
+        "answer": "adopted child",
+        "options": [
+            "adopted child",
+            "son",
+            "friend, dance rival",
+            "ex-lover"
+        ],
+        "question": "What is Kris' relationship to Toriel?"
+    },
+    {
+        "answer": "himself",
+        "options": [
+            "himself",
+            "game files",
+            "game files in Chapter 3",
+            "Toriel, Noelle"
+        ],
+        "question": "Who calls Rouxls_Kaard 'Duke of Puzzles'?"
+    },
+    {
+        "answer": "Card Castle",
+        "options": [
+            "Card Castle",
+            "Top of Castle",
+            "Cyber City",
+            "Original Game"
+        ],
+        "question": "Where does Rouxls_Kaard appear?"
+    },
+    {
+        "answer": "ex-lover",
+        "options": [
+            "ex-lover",
+            "ex-husband",
+            "friend",
+            "daughter"
+        ],
+        "question": "What is Elnina's relationship to Rouxls_Kaard?"
+    },
+    {
+        "answer": "Pink's body",
+        "options": [
+            "Pink's body",
+            "game files",
+            "Dad Cat",
+            "Jevil\u2014presumably"
+        ],
+        "question": "Who calls FRIEND 'Cat'?"
+    },
+    {
+        "answer": "3rd Sanctuary",
+        "options": [
+            "3rd Sanctuary",
+            "Cyber Field",
+            "Hometown",
+            "Cyber City"
+        ],
+        "question": "Where does FRIEND appear?"
+    },
+    {
+        "answer": "Noelle",
+        "options": [
+            "Noelle",
+            "Dad Cat",
+            "King",
+            "Alphys, Asgore, Tenna"
+        ],
+        "question": "Who calls Asgore 'Mr. Dreemurr'?"
+    },
+    {
+        "answer": "Cliffs",
+        "options": [
+            "Cliffs",
+            "3rd Sanctuary",
+            "Castle Town",
+            "Card Castle"
+        ],
+        "question": "Where does Asgore appear?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "friend, teammate",
+            "former co-worker",
+            "daughter"
+        ],
+        "question": "What is Alphys' relationship to Asgore?"
+    },
+    {
+        "answer": "TV Time",
+        "options": [
+            "TV Time",
+            "Orange",
+            "Berdly",
+            "himself"
+        ],
+        "question": "Who calls Susie 'ASS'?"
+    },
+    {
+        "answer": "friend, teammate",
+        "options": [
+            "friend, teammate",
+            "ex-husband",
+            "associate",
+            "mother"
+        ],
+        "question": "What is Ralsei's relationship to Susie?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "3rd Sanctuary",
+            "Cliffs",
+            "Queen's Mansion"
+        ],
+        "question": "Where does Rudy appear?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "employees",
+            "ex-lover",
+            "former co-worker"
+        ],
+        "question": "What is Toriel's relationship to Rudy?"
+    },
+    {
+        "answer": "Dad Cat",
+        "options": [
+            "Dad Cat",
+            "Flowery",
+            "Dogamy",
+            "title"
+        ],
+        "question": "Who calls Asriel 'Doug/Douglas'?"
+    },
+    {
+        "answer": "childhood friend",
+        "options": [
+            "childhood friend",
+            "father",
+            "daughter",
+            "former role model"
+        ],
+        "question": "What is Noelle's relationship to Asriel?"
+    },
+    {
+        "answer": "Lord of the Hammer",
+        "options": [
+            "Lord of the Hammer",
+            "prophecy",
+            "Pink's body",
+            "Dogamy"
+        ],
+        "question": "Who calls Old_Man 'A great smith'?"
+    },
+    {
+        "answer": "Dark Sanctuary",
+        "options": [
+            "Dark Sanctuary",
+            "Cold Place",
+            "Card Castle",
+            "Cyber Field"
+        ],
+        "question": "Where does Old_Man appear?"
+    },
+    {
+        "answer": "relative",
+        "options": [
+            "relative",
+            "son",
+            "friend, sparring partner",
+            "former role model"
+        ],
+        "question": "What is Ms. Boom's relationship to Old_Man?"
+    },
+    {
+        "answer": "Cold Place",
+        "options": [
+            "Cold Place",
+            "Queen's Mansion",
+            "Castle Town",
+            "Cyber City"
+        ],
+        "question": "Where does Undyne appear?"
+    },
+    {
+        "answer": "co-worker",
+        "options": [
+            "co-worker",
+            "ex-husband",
+            "former co-worker",
+            "wife"
+        ],
+        "question": "What is Napstablook's relationship to Undyne?"
+    },
+    {
+        "answer": "Asgore",
+        "options": [
+            "Asgore",
+            "in battle",
+            "Rudy",
+            "former name"
+        ],
+        "question": "Who calls Sans 'Bone man'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Garden",
+            "Flower Castle",
+            "Cyber Field"
+        ],
+        "question": "Where does Sans appear?"
+    },
+    {
+        "answer": "younger brother",
+        "options": [
+            "younger brother",
+            "teasingly hostile",
+            "co-worker",
+            "former role model"
+        ],
+        "question": "What is Papyrus' relationship to Sans?"
+    },
+    {
+        "answer": "childhood friend/implied love interest",
+        "options": [
+            "childhood friend/implied love interest",
+            "friend",
+            "co-worker",
+            "enemy, former boss"
+        ],
+        "question": "What is Asriel's relationship to Dess?"
+    },
+    {
+        "answer": "Orange",
+        "options": [
+            "Orange",
+            "Dad Cat",
+            "game files",
+            "Lancer"
+        ],
+        "question": "Who calls Flowery 'Big bro'?"
+    },
+    {
+        "answer": "Cliffs",
+        "options": [
+            "Cliffs",
+            "Dark Sanctuary",
+            "Hometown",
+            "TV Studio"
+        ],
+        "question": "Where does Flowery appear?"
+    },
+    {
+        "answer": "affiliate",
+        "options": [
+            "affiliate",
+            "childhood friend/love interest",
+            "friend",
+            "forced employee"
+        ],
+        "question": "What is Toriel's relationship to Flowery?"
     },
     {
         "answer": "Spamton",
         "options": [
             "Spamton",
-            "Jigsawry, Catti",
-            "himself",
-            "Catty"
+            "Noelle",
+            "himself, Lanino",
+            "Rudy"
         ],
         "question": "Who calls Berdly 'Frozen Chicken'?"
     },
@@ -544,68 +1154,288 @@
         "options": [
             "Queen's Mansion",
             "3rd Sanctuary",
-            "Cliffs",
-            "Card Castle"
+            "Top of Castle",
+            "Cold Place"
         ],
-        "question": "Where does Berdly appears?"
+        "question": "Where does Berdly appear?"
     },
     {
-        "answer": "former role model",
+        "answer": "friend, gaming rival, former love interest nominee",
         "options": [
-            "former role model",
-            "mentor",
-            "former co-worker",
-            "former enemies, friends"
+            "friend, gaming rival, former love interest nominee",
+            "adopted child",
+            "affiliate",
+            "younger brother"
         ],
-        "question": "What is Queen's relationship to Berdly?"
+        "question": "What is Kris' relationship to Berdly?"
     },
     {
-        "answer": "Susie, Rudy",
+        "answer": "game files",
         "options": [
-            "Susie, Rudy",
-            "Seam, Spamton, King",
-            "Toriel, Noelle",
-            "former name"
+            "game files",
+            "Toriel",
+            "Dad Cat",
+            "Floradinn"
         ],
-        "question": "Who calls Sans 'Store guy'?"
+        "question": "Who calls Special:Random 'cattydad'?"
     },
     {
-        "answer": "o",
+        "answer": "Hometown",
         "options": [
-            "o",
-            "?",
+            "Hometown",
+            "Queen's Mansion",
+            "3rd Sanctuary",
+            "Cold Place"
+        ],
+        "question": "Where does Special:Random appear?"
+    },
+    {
+        "answer": "daughter",
+        "options": [
+            "daughter",
+            "close friend, academic partner",
+            "friend",
+            "former love interest"
+        ],
+        "question": "What is Catty's relationship to Special:Random?"
+    },
+    {
+        "answer": "full name",
+        "options": [
+            "full name",
+            "Dad Cat",
+            "Toriel",
+            "game files"
+        ],
+        "question": "Who calls Queen 'Serial Number Q5U4EX7YY2E9N'?"
+    },
+    {
+        "answer": "Queen's Mansion",
+        "options": [
+            "Queen's Mansion",
+            "Hometown",
+            "Garden",
+            "Flower Castle"
+        ],
+        "question": "Where does Queen appear?"
+    },
+    {
+        "answer": "close friend, ex-minion",
+        "options": [
+            "close friend, ex-minion",
+            "younger brother",
+            "close friend, academic partner",
+            "friend"
+        ],
+        "question": "What is Noelle's relationship to Queen?"
+    },
+    {
+        "answer": "Alphys, Asgore, Tenna",
+        "options": [
+            "Alphys, Asgore, Tenna",
+            "Orange",
+            "Faw Faw",
+            "game files in Chapter 3"
+        ],
+        "question": "Who calls Toriel 'Tori'?"
+    },
+    {
+        "answer": "Cold Place",
+        "options": [
             "Cold Place",
-            "Top of Castle"
+            "Queen's Mansion",
+            "3rd Sanctuary",
+            "Castle Town"
         ],
-        "question": "Where does Sans appears?"
+        "question": "Where does Toriel appear?"
     },
     {
         "answer": "friend",
         "options": [
             "friend",
-            "possible former associate",
-            "childhood friend/implied love interest",
+            "relative",
+            "mother",
             "friend, younger sister"
         ],
-        "question": "What is Toriel's relationship to Sans?"
+        "question": "What is Rudy's relationship to Toriel?"
     },
     {
-        "answer": "younger sister",
+        "answer": "himself",
         "options": [
-            "younger sister",
-            "childhood friend",
-            "husband",
-            "co-worker"
+            "himself",
+            "game files",
+            "Susie",
+            "unused prophecy panel"
         ],
-        "question": "What is Noelle's relationship to Dess?"
+        "question": "Who calls Rouxls_Kaard 'Duke of Puzzles'?"
+    },
+    {
+        "answer": "Castle Town",
+        "options": [
+            "Castle Town",
+            "Hometown",
+            "Cyber City",
+            "Cold Place"
+        ],
+        "question": "Where does Rouxls_Kaard appear?"
+    },
+    {
+        "answer": "\"lesser dad\"/\"vice father\" of",
+        "options": [
+            "\"lesser dad\"/\"vice father\" of",
+            "best friend",
+            "relative",
+            "friend, gaming rival, former love interest nominee"
+        ],
+        "question": "What is Lancer's relationship to Rouxls_Kaard?"
+    },
+    {
+        "answer": "game files",
+        "options": [
+            "game files",
+            "Queen, Ms. Boom",
+            "Flowery",
+            "Faw Faw"
+        ],
+        "question": "Who calls FRIEND 'IMAGE_FRIEND'?"
+    },
+    {
+        "answer": "Original Game",
+        "options": [
+            "Original Game",
+            "Cliffs",
+            "Hometown",
+            "Cold Place"
+        ],
+        "question": "Where does FRIEND appear?"
+    },
+    {
+        "answer": "Flowery",
+        "options": [
+            "Flowery",
+            "Seth",
+            "party",
+            "Floradinn"
+        ],
+        "question": "Who calls Asgore 'Goregore'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "The Legend of Tenna",
+            "3rd Sanctuary",
+            "Cyber City"
+        ],
+        "question": "Where does Asgore appear?"
+    },
+    {
+        "answer": "ex-wife",
+        "options": [
+            "ex-wife",
+            "ex-minion",
+            "former love interest",
+            "friend"
+        ],
+        "question": "What is Toriel's relationship to Asgore?"
+    },
+    {
+        "answer": "TV Time",
+        "options": [
+            "TV Time",
+            "Lord of the Hammer",
+            "Toriel",
+            "Dad Cat"
+        ],
+        "question": "Who calls Susie 'ASS'?"
+    },
+    {
+        "answer": "friend, teammate",
+        "options": [
+            "friend, teammate",
+            "ex-husband",
+            "best friend",
+            "ex-lover"
+        ],
+        "question": "What is Ralsei's relationship to Susie?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Flower Castle",
+            "3rd Sanctuary",
+            "Cyber Field"
+        ],
+        "question": "Where does Rudy appear?"
+    },
+    {
+        "answer": "daughter",
+        "options": [
+            "daughter",
+            "mother",
+            "son",
+            "possible love interest"
+        ],
+        "question": "What is Dess' relationship to Rudy?"
+    },
+    {
+        "answer": "Dad Cat",
+        "options": [
+            "Dad Cat",
+            "Toriel",
+            "game files",
+            "Seth"
+        ],
+        "question": "Who calls Asriel 'Doug/Douglas'?"
+    },
+    {
+        "answer": "adoptive sibling",
+        "options": [
+            "adoptive sibling",
+            "friend",
+            "former role model",
+            "relative"
+        ],
+        "question": "What is Kris' relationship to Asriel?"
+    },
+    {
+        "answer": "party",
+        "options": [
+            "party",
+            "himself",
+            "Orange",
+            "game files in Chapter 3"
+        ],
+        "question": "Who calls Old_Man 'Old Man'?"
+    },
+    {
+        "answer": "Dark Sanctuary",
+        "options": [
+            "Dark Sanctuary",
+            "The Legend of Tenna",
+            "Queen's Mansion",
+            "Cyber City"
+        ],
+        "question": "Where does Old_Man appear?"
+    },
+    {
+        "answer": "relative",
+        "options": [
+            "relative",
+            "friend, gaming rival, former love interest nominee",
+            "younger brother",
+            "adoptive child"
+        ],
+        "question": "What is Ms. Boom's relationship to Old_Man?"
     },
     {
         "answer": "Dogamy",
         "options": [
             "Dogamy",
-            "Seth",
-            "Catty",
-            "Monster Movie"
+            "Flowery",
+            "Toriel",
+            "Alphys, Asgore, Tenna"
         ],
         "question": "Who calls Undyne 'Ol' pointy teeth'?"
     },
@@ -613,599 +1443,439 @@
         "answer": "Cold Place",
         "options": [
             "Cold Place",
-            "Queen's Mansion",
-            "Cyber City",
-            "Castle Town"
-        ],
-        "question": "Where does Undyne appears?"
-    },
-    {
-        "answer": "former co-worker",
-        "options": [
-            "former co-worker",
-            "friend, adoptive sister to Orange",
-            "younger brother",
-            "relative"
-        ],
-        "question": "What is Asgore's relationship to Undyne?"
-    },
-    {
-        "answer": "Lancer, Top Chef, Undyne, Tenna",
-        "options": [
-            "Lancer, Top Chef, Undyne, Tenna",
-            "Lord of the Hammer",
-            "Toriel",
-            "unused prophecy panel"
-        ],
-        "question": "Who calls Susie 'Purple girl'?"
-    },
-    {
-        "answer": "friend, teammate",
-        "options": [
-            "friend, teammate",
-            "friend, kitchen partner",
-            "former love interest",
-            "friend, gaming rival, former love interest nominee"
-        ],
-        "question": "What is Ralsei's relationship to Susie?"
-    },
-    {
-        "answer": "prophecy",
-        "options": [
-            "prophecy",
-            "King",
-            "Spamton",
-            "Jigsawry, Catti"
-        ],
-        "question": "Who calls Tenna 'LORD OF SCREENS'?"
-    },
-    {
-        "answer": "The Legend of Tenna",
-        "options": [
-            "The Legend of Tenna",
-            "w",
-            "Hometown",
-            "Queen's Mansion"
-        ],
-        "question": "Where does Tenna appears?"
-    },
-    {
-        "answer": "owner, optionally",
-        "options": [
-            "owner, optionally",
-            "mother",
-            "daughter",
-            "friend"
-        ],
-        "question": "What is Nobody's relationship to Tenna?"
-    },
-    {
-        "answer": "signature",
-        "options": [
-            "signature",
-            "prophecy",
-            "Rudy",
-            "alternate form"
-        ],
-        "question": "Who calls Carol 'C'?"
-    },
-    {
-        "answer": "m",
-        "options": [
-            "m",
             "Top of Castle",
-            "Cyber City",
-            "Queen's Mansion"
+            "Dark Sanctuary",
+            "TV Studio"
         ],
-        "question": "Where does Carol appears?"
+        "question": "Where does Undyne appear?"
     },
     {
-        "answer": "daughter",
+        "answer": "co-worker",
         "options": [
-            "daughter",
             "co-worker",
-            "mentor",
-            "caretaker"
+            "affiliate",
+            "relative",
+            "wife"
         ],
-        "question": "What is Dess' relationship to Carol?"
+        "question": "What is Napstablook's relationship to Undyne?"
     },
     {
-        "answer": "Lancer",
+        "answer": "Toriel, Noelle",
         "options": [
-            "Lancer",
-            "Lord of the Hammer",
-            "Spamton",
-            "signature"
+            "Toriel, Noelle",
+            "Toriel",
+            "Flowery",
+            "Orange"
         ],
-        "question": "Who calls Noelle 'Soft cream'?"
+        "question": "Who calls Sans 'Mr. Sans'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Dark Sanctuary",
+            "Queen's Mansion",
+            "3rd Sanctuary"
+        ],
+        "question": "Where does Sans appear?"
+    },
+    {
+        "answer": "younger brother",
+        "options": [
+            "younger brother",
+            "relative",
+            "former co-worker",
+            "friend, teammate"
+        ],
+        "question": "What is Papyrus' relationship to Sans?"
+    },
+    {
+        "answer": "mother",
+        "options": [
+            "mother",
+            "childhood friend/love interest",
+            "adopted child",
+            "co-worker"
+        ],
+        "question": "What is Carol's relationship to Dess?"
+    },
+    {
+        "answer": "Orange",
+        "options": [
+            "Orange",
+            "King",
+            "prophecy",
+            "Toriel"
+        ],
+        "question": "Who calls Flowery 'Big bro'?"
+    },
+    {
+        "answer": "Cliffs",
+        "options": [
+            "Cliffs",
+            "Queen's Mansion",
+            "Cyber Field",
+            "Cold Place"
+        ],
+        "question": "Where does Flowery appear?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "former role model",
+            "co-worker",
+            "\"lesser dad\"/\"vice father\" of"
+        ],
+        "question": "What is Aqua's relationship to Flowery?"
+    },
+    {
+        "answer": "Queen, Ms. Boom",
+        "options": [
+            "Queen, Ms. Boom",
+            "signature, Clover",
+            "game files",
+            "Asgore"
+        ],
+        "question": "Who calls Berdly 'Burghley'?"
+    },
+    {
+        "answer": "Cyber Field",
+        "options": [
+            "Cyber Field",
+            "Garden",
+            "Cliffs",
+            "Original Game"
+        ],
+        "question": "Where does Berdly appear?"
+    },
+    {
+        "answer": "friend, gaming rival, former love interest nominee",
+        "options": [
+            "friend, gaming rival, former love interest nominee",
+            "childhood friend/implied love interest",
+            "younger brother",
+            "co-worker"
+        ],
+        "question": "What is Kris' relationship to Berdly?"
+    },
+    {
+        "answer": "game files",
+        "options": [
+            "game files",
+            "Jevil\u2014presumably",
+            "Queen, Ms. Boom",
+            "King"
+        ],
+        "question": "Who calls Special:Random 'catti_dad'?"
     },
     {
         "answer": "Hometown",
         "options": [
             "Hometown",
             "The Legend of Tenna",
-            "Flower Castle",
-            "m"
+            "3rd Sanctuary",
+            "Cliffs"
         ],
-        "question": "Where does Noelle appears?"
+        "question": "Where does Special:Random appear?"
     },
     {
-        "answer": "childhood friend",
+        "answer": "daughter",
         "options": [
-            "childhood friend",
-            "mentor",
-            "former love interest",
-            "\"lesser dad\""
+            "daughter",
+            "adoptive child",
+            "wife",
+            "son"
         ],
-        "question": "What is Asriel's relationship to Noelle?"
+        "question": "What is Catty's relationship to Special:Random?"
     },
     {
-        "answer": "himself, Werewire, Swatch, Seam, Ramb",
+        "answer": "prophecy",
         "options": [
-            "himself, Werewire, Swatch, Seam, Ramb",
-            "Catty",
-            "Spamton",
-            "himself"
+            "prophecy",
+            "Lord of the Hammer",
+            "game files",
+            "Asgore"
         ],
-        "question": "Who calls Spamton 'Salesman'?"
+        "question": "Who calls Queen 'THE QUEEN'?"
     },
     {
         "answer": "Queen's Mansion",
         "options": [
             "Queen's Mansion",
-            "3rd Sanctuary",
-            "o",
-            "Cyber Field"
-        ],
-        "question": "Where does Spamton appears?"
-    },
-    {
-        "answer": "former companions",
-        "options": [
-            "former companions",
-            "best friend, \"college roommate\"",
-            "friend, teammate",
-            "friend"
-        ],
-        "question": "What is Addisons' relationship to Spamton?"
-    },
-    {
-        "answer": "in battle",
-        "options": [
-            "in battle",
-            "himself",
-            "prophecy",
-            "Floradinn"
-        ],
-        "question": "Who calls Old_Man 'Hammer of Justice'?"
-    },
-    {
-        "answer": "Dark Sanctuary",
-        "options": [
-            "Dark Sanctuary",
-            "Cyber City",
-            "Queen's Mansion",
-            "?"
-        ],
-        "question": "Where does Old_Man appears?"
-    },
-    {
-        "answer": "son",
-        "options": [
-            "son",
-            "mentor",
-            "father",
-            "friend, gaming rival, former love interest nominee"
-        ],
-        "question": "What is Alvin's relationship to Old_Man?"
-    },
-    {
-        "answer": "game files",
-        "options": [
-            "game files",
-            "Susie, Rudy",
-            "signature",
-            "Spamton"
-        ],
-        "question": "Who calls Jevil 'joker'?"
-    },
-    {
-        "answer": ")",
-        "options": [
-            ")",
-            "Garden",
-            "Cyber Field",
-            "3rd Sanctuary"
-        ],
-        "question": "Where does Jevil appears?"
-    },
-    {
-        "answer": "Garden",
-        "options": [
-            "Garden",
-            "Queen's Mansion",
-            "?",
-            "3rd Sanctuary"
-        ],
-        "question": "Where does 7_Colored_Flowers appears?"
-    },
-    {
-        "answer": "friend, adoptive sister to Orange",
-        "options": [
-            "friend, adoptive sister to Orange",
-            "friend",
-            "former role model",
-            "co-worker"
-        ],
-        "question": "What is Pink's relationship to 7_Colored_Flowers?"
-    },
-    {
-        "answer": "title",
-        "options": [
-            "title",
-            "himself",
-            "party",
-            "Seth"
-        ],
-        "question": "Who calls Flowery 'Roommate'?"
-    },
-    {
-        "answer": "Cliffs",
-        "options": [
-            "Cliffs",
-            "t",
-            "Queen's Mansion",
-            "o"
-        ],
-        "question": "Where does Flowery appears?"
-    },
-    {
-        "answer": "friend, kitchen partner",
-        "options": [
-            "friend, kitchen partner",
-            "co-worker",
-            "husband",
-            "prot\u00e9g\u00e9"
-        ],
-        "question": "What is Green's relationship to Flowery?"
-    },
-    {
-        "answer": "himself",
-        "options": [
-            "himself",
-            "prophecy",
-            "Tenna",
-            "Lancer"
-        ],
-        "question": "Who calls Lancer 'Dark Jack Lancer'?"
-    },
-    {
-        "answer": "TV World",
-        "options": [
-            "TV World",
-            "Hometown",
-            "H",
-            "Flower Castle"
-        ],
-        "question": "Where does Lancer appears?"
-    },
-    {
-        "answer": "father",
-        "options": [
-            "father",
-            "owner, optionally",
-            "mentor",
-            "younger brother"
-        ],
-        "question": "What is King's relationship to Lancer?"
-    },
-    {
-        "answer": "t",
-        "options": [
-            "t",
-            "Queen's Mansion",
             "Top of Castle",
+            "Hometown",
             "3rd Sanctuary"
         ],
-        "question": "Where does Special:Random appears?"
+        "question": "Where does Queen appear?"
     },
     {
-        "answer": "Rudy",
+        "answer": "close friend, ex-minion",
         "options": [
-            "Rudy",
-            "in battle",
-            "title",
-            "former name"
-        ],
-        "question": "Who calls Berdly 'Nerdly'?"
-    },
-    {
-        "answer": "Cyber Field",
-        "options": [
-            "Cyber Field",
-            "3rd Sanctuary",
-            "e",
-            "w"
-        ],
-        "question": "Where does Berdly appears?"
-    },
-    {
-        "answer": "former love interest",
-        "options": [
+            "close friend, ex-minion",
+            "friend",
             "former love interest",
-            "friend",
-            "best friend, \"college roommate\"",
-            "father"
+            "friend, younger sister"
         ],
-        "question": "What is Susie's relationship to Berdly?"
-    },
-    {
-        "answer": "himself",
-        "options": [
-            "himself",
-            "game files",
-            "herself, Monster Movie",
-            "Asgore"
-        ],
-        "question": "Who calls Sans 'sans the skeleton'?"
-    },
-    {
-        "answer": "t",
-        "options": [
-            "t",
-            "TV World",
-            "Cyber Field",
-            "Queen's Mansion"
-        ],
-        "question": "Where does Sans appears?"
-    },
-    {
-        "answer": "friend",
-        "options": [
-            "friend",
-            "father",
-            "close friend, academic partner",
-            "caretaker"
-        ],
-        "question": "What is Toriel's relationship to Sans?"
-    },
-    {
-        "answer": "childhood friend/implied love interest",
-        "options": [
-            "childhood friend/implied love interest",
-            "friend, gaming rival, former love interest nominee",
-            "love interest",
-            "prot\u00e9g\u00e9"
-        ],
-        "question": "What is Asriel's relationship to Dess?"
+        "question": "What is Noelle's relationship to Queen?"
     },
     {
         "answer": "Cold Place",
         "options": [
             "Cold Place",
-            "3rd Sanctuary",
-            "C",
-            "n"
+            "Queen's Mansion",
+            "Dark Sanctuary",
+            "Original Game"
         ],
-        "question": "Where does Undyne appears?"
-    },
-    {
-        "answer": "possible love interest",
-        "options": [
-            "possible love interest",
-            "friend, teammate",
-            "father",
-            "son"
-        ],
-        "question": "What is Alphys' relationship to Undyne?"
-    },
-    {
-        "answer": "Berdly",
-        "options": [
-            "Berdly",
-            "alternate form",
-            "prophecy",
-            "Queen, Ms. Boom"
-        ],
-        "question": "Who calls Susie 'Susan'?"
+        "question": "Where does Toriel appear?"
     },
     {
         "answer": "friend",
         "options": [
             "friend",
-            "former co-worker",
-            "friend, younger sister",
-            "daughter"
+            "ex-lover",
+            "mother",
+            "best friend"
         ],
-        "question": "What is Lancer's relationship to Susie?"
+        "question": "What is Rudy's relationship to Toriel?"
     },
     {
-        "answer": "Rouxls Kaard",
+        "answer": "himself",
         "options": [
-            "Rouxls Kaard",
-            "Spamton",
-            "Dogamy",
-            "in battle"
+            "himself",
+            "Seth",
+            "Flowery",
+            "Toriel"
         ],
-        "question": "Who calls Tenna 'TV Guy'?"
+        "question": "Who calls Rouxls_Kaard 'Duke of Puzzles'?"
+    },
+    {
+        "answer": "Card Castle",
+        "options": [
+            "Card Castle",
+            "Dark Sanctuary",
+            "Hometown",
+            "Cyber City"
+        ],
+        "question": "Where does Rouxls_Kaard appear?"
+    },
+    {
+        "answer": "ex-lover",
+        "options": [
+            "ex-lover",
+            "adoptive son",
+            "teasingly hostile",
+            "close friend, ex-minion"
+        ],
+        "question": "What is Lanino's relationship to Rouxls_Kaard?"
+    },
+    {
+        "answer": "game files in Chapter 3",
+        "options": [
+            "game files in Chapter 3",
+            "in battle",
+            "game files",
+            "Faw Faw"
+        ],
+        "question": "Who calls FRIEND '_'?"
     },
     {
         "answer": "Original Game",
         "options": [
             "Original Game",
-            "??????",
-            "Cyber Field",
-            "Garden"
-        ],
-        "question": "Where does Tenna appears?"
-    },
-    {
-        "answer": "previously frequent viewers",
-        "options": [
-            "previously frequent viewers",
-            "friend",
-            "relative",
-            "former co-worker"
-        ],
-        "question": "What is Kris, Toriel, Asriel, Asgore, Noelle, Dess, Rudy, Carol's relationship to Tenna?"
-    },
-    {
-        "answer": "H",
-        "options": [
-            "H",
-            "3rd Sanctuary",
-            "?",
-            "Cyber City"
-        ],
-        "question": "Where does Carol appears?"
-    },
-    {
-        "answer": "unknown",
-        "options": [
-            "unknown",
-            "owner, optionally",
-            "former co-worker",
-            "childhood friend/implied love interest"
-        ],
-        "question": "What is Kris' relationship to Carol?"
-    },
-    {
-        "answer": "Lancer",
-        "options": [
-            "Lancer",
-            "himself, Werewire, Swatch, Seam, Ramb",
-            "Lancer, Top Chef, Undyne, Tenna",
-            "Jigsawry, Catti"
-        ],
-        "question": "Who calls Noelle 'Soft cream'?"
-    },
-    {
-        "answer": "Cyber City",
-        "options": [
-            "Cyber City",
-            "3rd Sanctuary",
-            "m",
-            "w"
-        ],
-        "question": "Where does Noelle appears?"
-    },
-    {
-        "answer": "older sister",
-        "options": [
-            "older sister",
-            "friend, adoptive sister to Orange",
-            "friend, gaming rival, former love interest nominee",
-            "son"
-        ],
-        "question": "What is Dess' relationship to Noelle?"
-    },
-    {
-        "answer": "alternate form",
-        "options": [
-            "alternate form",
-            "himself",
-            "prophecy",
-            "Jigsawry, Catti"
-        ],
-        "question": "Who calls Spamton 'Spamton NEO'?"
-    },
-    {
-        "answer": "Cyber City",
-        "options": [
-            "Cyber City",
-            "??????",
-            "w",
-            "e"
-        ],
-        "question": "Where does Spamton appears?"
-    },
-    {
-        "answer": "former companions",
-        "options": [
-            "former companions",
-            "adoptive mother/\"girldad\"",
-            "friend, adoptive sister to Orange",
-            "possible love interest"
-        ],
-        "question": "What is Addisons' relationship to Spamton?"
-    },
-    {
-        "answer": "in battle",
-        "options": [
-            "in battle",
-            "signature",
-            "Seam, Spamton, King",
-            "Rouxls Kaard"
-        ],
-        "question": "Who calls Old_Man 'Hammer of Justice'?"
-    },
-    {
-        "answer": "Dark Sanctuary",
-        "options": [
-            "Dark Sanctuary",
-            "Garden",
-            "Flower Castle",
-            "m"
-        ],
-        "question": "Where does Old_Man appears?"
-    },
-    {
-        "answer": "relative",
-        "options": [
-            "relative",
-            "prot\u00e9g\u00e9",
-            "caretaker",
-            "friend"
-        ],
-        "question": "What is Ms. Boom's relationship to Old_Man?"
-    },
-    {
-        "answer": "Seam, Spamton, King",
-        "options": [
-            "Seam, Spamton, King",
-            "himself",
-            "Monster Movie",
-            "Spamton"
-        ],
-        "question": "Who calls Jevil 'Clown'?"
-    },
-    {
-        "answer": "a",
-        "options": [
-            "a",
-            "Cyber City",
-            "w",
+            "Hometown",
+            "The Legend of Tenna",
             "Cold Place"
         ],
-        "question": "Where does Jevil appears?"
+        "question": "Where does FRIEND appear?"
+    },
+    {
+        "answer": "Flowery",
+        "options": [
+            "Flowery",
+            "Alphys, Asgore, Tenna",
+            "in battle",
+            "signature, Clover"
+        ],
+        "question": "Who calls Asgore 'Goregore'?"
     },
     {
         "answer": "Top of Castle",
         "options": [
             "Top of Castle",
-            "Field",
+            "3rd Sanctuary",
             "Queen's Mansion",
             "Cold Place"
         ],
-        "question": "Where does 7_Colored_Flowers appears?"
+        "question": "Where does Asgore appear?"
     },
     {
-        "answer": "friend, adoptive sister to Orange",
+        "answer": "ex-wife",
         "options": [
-            "friend, adoptive sister to Orange",
-            "friend, teammate",
-            "younger sister",
-            "friend, gaming rival, former love interest nominee"
+            "ex-wife",
+            "adoptive sibling",
+            "childhood friend/love interest",
+            "daughter"
         ],
-        "question": "What is Pink's relationship to 7_Colored_Flowers?"
+        "question": "What is Toriel's relationship to Asgore?"
+    },
+    {
+        "answer": "SAVE point",
+        "options": [
+            "SAVE point",
+            "signature, Clover",
+            "himself",
+            "party"
+        ],
+        "question": "Who calls Susie 'Mean girl'?"
+    },
+    {
+        "answer": "friend, teammate",
+        "options": [
+            "friend, teammate",
+            "associate",
+            "friend, younger sister",
+            "younger brother"
+        ],
+        "question": "What is Ralsei's relationship to Susie?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Castle Town",
+            "3rd Sanctuary",
+            "Flower Castle"
+        ],
+        "question": "Where does Rudy appear?"
+    },
+    {
+        "answer": "daughter",
+        "options": [
+            "daughter",
+            "mother",
+            "wife",
+            "former role model"
+        ],
+        "question": "What is Noelle's relationship to Rudy?"
+    },
+    {
+        "answer": "Dad Cat",
+        "options": [
+            "Dad Cat",
+            "unused prophecy panel",
+            "Toriel, Noelle",
+            "Rudy"
+        ],
+        "question": "Who calls Asriel 'Doug/Douglas'?"
+    },
+    {
+        "answer": "childhood friend",
+        "options": [
+            "childhood friend",
+            "ex-husband",
+            "possible love interest",
+            "mother"
+        ],
+        "question": "What is Noelle's relationship to Asriel?"
+    },
+    {
+        "answer": "unused prophecy panel",
+        "options": [
+            "unused prophecy panel",
+            "Flowery",
+            "Dogamy",
+            "Lord of the Hammer"
+        ],
+        "question": "Who calls Old_Man 'THE TORTOISE'?"
+    },
+    {
+        "answer": "Dark Sanctuary",
+        "options": [
+            "Dark Sanctuary",
+            "Cold Place",
+            "Castle Town",
+            "TV World"
+        ],
+        "question": "Where does Old_Man appear?"
+    },
+    {
+        "answer": "son",
+        "options": [
+            "son",
+            "ex-minion",
+            "father",
+            "former co-worker"
+        ],
+        "question": "What is Alvin's relationship to Old_Man?"
+    },
+    {
+        "answer": "Cold Place",
+        "options": [
+            "Cold Place",
+            "Top of Castle",
+            "3rd Sanctuary",
+            "Castle Town"
+        ],
+        "question": "Where does Undyne appear?"
+    },
+    {
+        "answer": "co-worker",
+        "options": [
+            "co-worker",
+            "adoptive son",
+            "daughter",
+            "employer"
+        ],
+        "question": "What is Napstablook's relationship to Undyne?"
+    },
+    {
+        "answer": "Asgore",
+        "options": [
+            "Asgore",
+            "Flowery",
+            "Orange",
+            "game files"
+        ],
+        "question": "Who calls Sans 'Bone man'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Queen's Mansion",
+            "Dark Sanctuary",
+            "Cyber City"
+        ],
+        "question": "Where does Sans appear?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "former role model",
+            "wife",
+            "former co-worker"
+        ],
+        "question": "What is Toriel's relationship to Sans?"
+    },
+    {
+        "answer": "younger sister",
+        "options": [
+            "younger sister",
+            "son",
+            "younger brother",
+            "employer"
+        ],
+        "question": "What is Noelle's relationship to Dess?"
     },
     {
         "answer": "former name",
         "options": [
             "former name",
-            "TV Time",
-            "himself",
-            "Berdly"
+            "Old Man",
+            "Dogamy",
+            "Dad Cat"
         ],
         "question": "Who calls Flowery 'Gold'?"
     },
@@ -1213,260 +1883,360 @@
         "answer": "Cliffs",
         "options": [
             "Cliffs",
-            "Dark Sanctuary",
-            "n",
-            "Cyber City"
+            "Hometown",
+            "Cyber Field",
+            "3rd Sanctuary"
         ],
-        "question": "Where does Flowery appears?"
+        "question": "Where does Flowery appear?"
     },
     {
-        "answer": "affiliate",
+        "answer": "associate",
         "options": [
-            "affiliate",
-            "former rival, likely one-sided",
-            "former co-worker",
-            "childhood friend"
+            "associate",
+            "enemy, former boss",
+            "relative",
+            "childhood friend/implied love interest"
         ],
-        "question": "What is Toriel's relationship to Flowery?"
+        "question": "What is Kris' relationship to Flowery?"
+    },
+    {
+        "answer": "Seth",
+        "options": [
+            "Seth",
+            "Dogamy",
+            "full name",
+            "Noelle"
+        ],
+        "question": "Who calls Berdly 'Avian hero'?"
+    },
+    {
+        "answer": "Cyber City",
+        "options": [
+            "Cyber City",
+            "Dark Sanctuary",
+            "3rd Sanctuary",
+            "Cold Place"
+        ],
+        "question": "Where does Berdly appear?"
+    },
+    {
+        "answer": "former love interest",
+        "options": [
+            "former love interest",
+            "friend",
+            "adopted child",
+            "friend, younger sister"
+        ],
+        "question": "What is Susie's relationship to Berdly?"
+    },
+    {
+        "answer": "game files",
+        "options": [
+            "game files",
+            "Floradinn",
+            "himself",
+            "Seth"
+        ],
+        "question": "Who calls Special:Random 'cattydad'?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "The Legend of Tenna",
+            "Cold Place",
+            "Garden"
+        ],
+        "question": "Where does Special:Random appear?"
+    },
+    {
+        "answer": "wife",
+        "options": [
+            "wife",
+            "younger brother",
+            "best friend, \"college roommate\"",
+            "co-worker"
+        ],
+        "question": "What is Mom Cat's relationship to Special:Random?"
     },
     {
         "answer": "King",
         "options": [
             "King",
-            "himself",
-            "Dogamy",
-            "Spamton"
+            "Rudy",
+            "party",
+            "Toriel"
         ],
-        "question": "Who calls Lancer 'A bouncy little pumpkin'?"
+        "question": "Who calls Queen 'Queenie Beanie'?"
     },
     {
         "answer": "Castle Town",
         "options": [
             "Castle Town",
-            "Cyber Field",
-            "o",
-            "?"
-        ],
-        "question": "Where does Lancer appears?"
-    },
-    {
-        "answer": "father",
-        "options": [
-            "father",
-            "affiliate",
-            "friend, teammate",
-            "former love interest"
-        ],
-        "question": "What is King's relationship to Lancer?"
-    },
-    {
-        "answer": "o",
-        "options": [
-            "o",
-            "Forest",
             "Top of Castle",
-            "Cyber City"
+            "TV Studio",
+            "Dark Sanctuary"
         ],
-        "question": "Where does Special:Random appears?"
+        "question": "Where does Queen appear?"
     },
     {
-        "answer": "Rudy",
+        "answer": "ex-minion",
         "options": [
-            "Rudy",
-            "himself",
-            "game files",
-            "former name"
+            "ex-minion",
+            "love interest",
+            "former co-worker",
+            "son"
         ],
-        "question": "Who calls Berdly 'Nerdly'?"
+        "question": "What is Berdly's relationship to Queen?"
+    },
+    {
+        "answer": "Susie",
+        "options": [
+            "Susie",
+            "Susie, Rudy",
+            "Orange",
+            "game files"
+        ],
+        "question": "Who calls Toriel 'Snoriel'?"
     },
     {
         "answer": "Hometown",
         "options": [
             "Hometown",
-            "m",
-            "TV World",
-            "Cliffs"
-        ],
-        "question": "Where does Berdly appears?"
-    },
-    {
-        "answer": "former role model",
-        "options": [
-            "former role model",
-            "father",
-            "friend, younger sister",
-            "childhood friend/implied love interest"
-        ],
-        "question": "What is Queen's relationship to Berdly?"
-    },
-    {
-        "answer": "Asgore",
-        "options": [
-            "Asgore",
-            "title",
-            "Seam, Spamton, King",
-            "alternate form"
-        ],
-        "question": "Who calls Sans 'Bone man'?"
-    },
-    {
-        "answer": "n",
-        "options": [
-            "n",
-            "l",
-            "Cyber City",
+            "TV Studio",
+            "Cliffs",
             "TV World"
         ],
-        "question": "Where does Sans appears?"
+        "question": "Where does Toriel appear?"
     },
     {
-        "answer": "younger brother",
+        "answer": "son",
         "options": [
-            "younger brother",
-            "husband",
-            "former friend",
-            "ostensible producer"
+            "son",
+            "father",
+            "friend, teammate",
+            "relative"
         ],
-        "question": "What is Papyrus' relationship to Sans?"
+        "question": "What is Asriel's relationship to Toriel?"
+    },
+    {
+        "answer": "himself, Lanino",
+        "options": [
+            "himself, Lanino",
+            "himself, Elnina",
+            "Susie, Rudy",
+            "game files"
+        ],
+        "question": "Who calls Rouxls_Kaard 'Rouxlsypoo'?"
+    },
+    {
+        "answer": "Castle Town",
+        "options": [
+            "Castle Town",
+            "3rd Sanctuary",
+            "Hometown",
+            "Cyber City"
+        ],
+        "question": "Where does Rouxls_Kaard appear?"
+    },
+    {
+        "answer": "\"lesser dad\"/\"vice father\" of",
+        "options": [
+            "\"lesser dad\"/\"vice father\" of",
+            "son",
+            "best friend",
+            "possible love interest"
+        ],
+        "question": "What is Lancer's relationship to Rouxls_Kaard?"
+    },
+    {
+        "answer": "game files",
+        "options": [
+            "game files",
+            "game files in Chapter 3",
+            "Queen, Ms. Boom",
+            "unused prophecy panel"
+        ],
+        "question": "Who calls FRIEND 'DEVICE_FRIEND'?"
+    },
+    {
+        "answer": "Garden",
+        "options": [
+            "Garden",
+            "Cyber Field",
+            "Hometown",
+            "Dark Sanctuary"
+        ],
+        "question": "Where does FRIEND appear?"
+    },
+    {
+        "answer": "Flowery",
+        "options": [
+            "Flowery",
+            "Asgore",
+            "game files",
+            "former name"
+        ],
+        "question": "Who calls Asgore 'Oldbuddy'?"
+    },
+    {
+        "answer": "Cliffs",
+        "options": [
+            "Cliffs",
+            "Cold Place",
+            "Cyber Field",
+            "Queen's Mansion"
+        ],
+        "question": "Where does Asgore appear?"
+    },
+    {
+        "answer": "friend, \"college roommate\"",
+        "options": [
+            "friend, \"college roommate\"",
+            "close friend, academic partner",
+            "teasingly hostile",
+            "younger brother"
+        ],
+        "question": "What is Flowery's relationship to Asgore?"
+    },
+    {
+        "answer": "TV Time",
+        "options": [
+            "TV Time",
+            "Lancer",
+            "unused prophecy panel",
+            "Toriel"
+        ],
+        "question": "Who calls Susie 'ASS'?"
+    },
+    {
+        "answer": "friend",
+        "options": [
+            "friend",
+            "close friend, ex-minion",
+            "mother",
+            "son"
+        ],
+        "question": "What is Lancer's relationship to Susie?"
+    },
+    {
+        "answer": "Hometown",
+        "options": [
+            "Hometown",
+            "Castle Town",
+            "Flower Castle",
+            "Card Castle"
+        ],
+        "question": "Where does Rudy appear?"
+    },
+    {
+        "answer": "best friend",
+        "options": [
+            "best friend",
+            "friend",
+            "childhood friend",
+            "possible love interest"
+        ],
+        "question": "What is Asgore's relationship to Rudy?"
+    },
+    {
+        "answer": "Dad Cat",
+        "options": [
+            "Dad Cat",
+            "game files",
+            "Flowery",
+            "Toriel, Noelle"
+        ],
+        "question": "Who calls Asriel 'Doug/Douglas'?"
     },
     {
         "answer": "father",
         "options": [
             "father",
-            "caretaker",
-            "friend, dance rival",
-            "friend"
+            "close friend, academic partner",
+            "ex-wife",
+            "daughter"
         ],
-        "question": "What is Rudy's relationship to Dess?"
+        "question": "What is Asgore's relationship to Asriel?"
+    },
+    {
+        "answer": "in battle",
+        "options": [
+            "in battle",
+            "Toriel",
+            "title",
+            "game files"
+        ],
+        "question": "Who calls Old_Man 'Hammer of Justice'?"
+    },
+    {
+        "answer": "Dark Sanctuary",
+        "options": [
+            "Dark Sanctuary",
+            "Cyber Field",
+            "Hometown",
+            "Cliffs"
+        ],
+        "question": "Where does Old_Man appear?"
     },
     {
         "answer": "Cold Place",
         "options": [
             "Cold Place",
-            "t",
-            "e",
-            "??????"
-        ],
-        "question": "Where does Undyne appears?"
-    },
-    {
-        "answer": "former co-worker",
-        "options": [
-            "former co-worker",
-            "prot\u00e9g\u00e9",
-            "love interest",
-            "friend"
-        ],
-        "question": "What is Asgore's relationship to Undyne?"
-    },
-    {
-        "answer": "Berdly",
-        "options": [
-            "Berdly",
-            "Seam, Spamton, King",
-            "unused prophecy panel",
-            "herself, Monster Movie"
-        ],
-        "question": "Who calls Susie 'Susan'?"
-    },
-    {
-        "answer": "friend, teammate",
-        "options": [
-            "friend, teammate",
-            "former co-worker",
-            "friend",
-            "former role model"
-        ],
-        "question": "What is Ralsei's relationship to Susie?"
-    },
-    {
-        "answer": "intro video",
-        "options": [
-            "intro video",
-            "game files",
-            "Seth",
-            "Spamton"
-        ],
-        "question": "Who calls Tenna 'THE KING OF ONLY'?"
-    },
-    {
-        "answer": "Original Game",
-        "options": [
-            "Original Game",
-            "Hometown",
-            "Top of Castle",
-            "o"
-        ],
-        "question": "Where does Tenna appears?"
-    },
-    {
-        "answer": "audience, optionally",
-        "options": [
-            "audience, optionally",
-            "father",
-            "childhood friend",
-            "friend, kitchen partner"
-        ],
-        "question": "What is King's relationship to Tenna?"
-    },
-    {
-        "answer": "signature",
-        "options": [
-            "signature",
-            "himself",
-            "Berdly",
-            "former name"
-        ],
-        "question": "Who calls Carol 'C'?"
-    },
-    {
-        "answer": "H",
-        "options": [
-            "H",
-            "Cold Place",
-            "Garden",
+            "Flower Castle",
+            "3rd Sanctuary",
             "Cyber City"
         ],
-        "question": "Where does Carol appears?"
+        "question": "Where does Undyne appear?"
     },
     {
-        "answer": "daughter",
+        "answer": "co-worker",
         "options": [
-            "daughter",
-            "possible love interest",
             "co-worker",
-            "close friend, academic partner"
+            "former role model",
+            "ex-lover",
+            "former co-worker"
         ],
-        "question": "What is Noelle's relationship to Carol?"
+        "question": "What is Napstablook's relationship to Undyne?"
     },
     {
-        "answer": "Catty",
+        "answer": "Asgore",
         "options": [
-            "Catty",
-            "Jigsawry, Catti",
-            "signature",
-            "himself"
+            "Asgore",
+            "full name",
+            "party",
+            "game files"
         ],
-        "question": "Who calls Noelle 'Noelley'?"
+        "question": "Who calls Sans 'Bone man'?"
     },
     {
         "answer": "Hometown",
         "options": [
             "Hometown",
-            "e",
-            "??????",
-            "Field"
+            "Cliffs",
+            "3rd Sanctuary",
+            "Original Game"
         ],
-        "question": "Where does Noelle appears?"
+        "question": "Where does Sans appear?"
     },
     {
-        "answer": "childhood friend",
+        "answer": "friend",
         "options": [
-            "childhood friend",
-            "close friend, academic partner",
-            "son",
-            "prot\u00e9g\u00e9"
+            "friend",
+            "daughter",
+            "love interest",
+            "childhood friend"
         ],
-        "question": "What is Asriel's relationship to Noelle?"
+        "question": "What is Toriel's relationship to Sans?"
+    },
+    {
+        "answer": "father",
+        "options": [
+            "father",
+            "former co-worker",
+            "childhood friend",
+            "best friend, \"college roommate\""
+        ],
+        "question": "What is Rudy's relationship to Dess?"
     }
 ]
