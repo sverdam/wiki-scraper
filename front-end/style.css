@@ -5,8 +5,10 @@ body {
     align-items: center;
     height: 90vh;
     padding: 1rem;
-    background-color: #c4e9c1;
-    font-family: Arial, sans-serif;
+    background-color: #222222;
+    color:#f0f0f0;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -30,32 +32,54 @@ body {
     display: flex;
     align-items: space-between;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
 .option {
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: max-content;
     flex-wrap: wrap;
-    padding: 0.5rem; 
+    padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    background: #222222;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
 
+.option::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, #222222, #333333);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 0;
+}
+
+.option:hover::before {
+    opacity: 1;
+}
+
+.option.selected::before {
+    background: #9c3ea0;
+    opacity: 1;
 }
 
 .option:hover {
-    background-color: #f0f0f0;
     transform: translateY(-4px);
 }
 
-.option.selected {
-    background-color: #4da779;
+.option > * {
+    position: relative;
+    z-index: 1;
 }
 
 #tools {
@@ -66,7 +90,6 @@ body {
 }
 
 #progress-dots {
-    background-color: #f0f0f0;
     padding: 10px;
     border-radius: 50px;
     display: flex;
@@ -81,18 +104,24 @@ body {
 }
 
 .dot.active {
-    background-color: #4da779;
+    background-color: #9c3ea0;
 }
 
 button {
     padding: 10px 20px;
     border-radius: 50px;
     border: none;
-    background-color: #4da779;
+    background-color: #9c3ea0;
     color: white;
     transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #6dbd95;
+    background-color: #ae4ab1;
+}
+
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
 }
