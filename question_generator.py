@@ -52,7 +52,12 @@ def generateRelationshipQuestion(data:dict, character:str):
     print("RELATIONSHIP: ", rel)
     options = [f"{rel[1]}"]
 
+    giveUpIn = 200
     while len(options) < 4:
+        if giveUpIn <= 0:
+            return {}
+        giveUpIn -= 1
+        
         new_option = randomData(data, "Relationships", True)
         new_option = separate(new_option)[1]
 
@@ -90,7 +95,12 @@ def generateAKA(data:dict, character:str):
     print("AKA: ", rel)
     options = [f"{rel[1]}"]
 
+    giveUpIn = 200
     while len(options) < 4:
+        if giveUpIn <= 0:
+            return {}
+        giveUpIn -= 1
+
         new_option = randomData(data, "Also known as", True)
         new_option = separate(new_option)[1]
 
@@ -118,8 +128,12 @@ def generateLocationQuestion(data:dict, character:str):
     
     options = [f"{place}"]
 
-    
+    giveUpIn = 200
     while len(options) < 4:
+        if giveUpIn <= 0:
+            return {}
+        giveUpIn -= 1
+
         new_option = randomData(data, "Appearances", True)
 
         if new_option == "" or new_option == "u00e9":
@@ -156,7 +170,7 @@ def generateQuestion(data:dict, character:str, field:str):
 
 def generate(data:dict):
     questions = []
-    multiplier = 4
+    multiplier = 5
     for i in range(4):
         for character in data.keys():
             for field in data[character].keys():
