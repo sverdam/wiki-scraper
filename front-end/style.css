@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding: 1rem;
+    background-color: #c4e9c1;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.question {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.option-container {
+    width: 100%;
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    gap: 10px;
+}
+
+.option {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: max-content;
+    flex-wrap: wrap;
+    padding: 0.5rem; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-4px);
+}
+
+.option.selected {
+    background-color: #4da779;
+}
+
+#tools {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#progress-dots {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.dot.active {
+    background-color: #4da779;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #4da779;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #6dbd95;
+}
