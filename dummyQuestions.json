@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Who is Kris?",
+    "options": [
+      "The protagonist",
+      "A shopkeeper",
+      "A Darkner",
+      "A boss"
+    ],
+    "answer": "The protagonist"
+  },
+  {
+    "question": "What is the name of Kris's older sibling?",
+    "options": [
+      "Ralsei",
+      "Asriel",
+      "Lancer",
+      "Rouxls"
+    ],
+    "answer": "Asriel"
+  },
+  {
+    "question": "Who is Susie?",
+    "options": [
+      "Kris's classmate",
+      "Kris's teacher",
+      "A shopkeeper",
+      "A Darkner ruler"
+    ],
+    "answer": "Kris's classmate"
+  },
+  {
+    "question": "What type of creature is Ralsei?",
+    "options": [
+      "Human",
+      "Darkner",
+      "Monster",
+      "Robot"
+    ],
+    "answer": "Darkner"
+  },
+  {
+    "question": "Who is the ruler of the Card Kingdom?",
+    "options": [
+      "Lancer",
+      "King",
+      "Ralsei",
+      "Jevil"
+    ],
+    "answer": "King"
+  },
+  {
+    "question": "What is Lancer's relationship to King?",
+    "options": [
+      "His son",
+      "His brother",
+      "His teacher",
+      "His servant"
+    ],
+    "answer": "His son"
+  },
+  {
+    "question": "What weapon does Kris primarily use?",
+    "options": [
+      "Sword",
+      "Axe",
+      "Bow",
+      "Spear"
+    ],
+    "answer": "Sword"
+  },
+  {
+    "question": "What weapon does Susie primarily use?",
+    "options": [
+      "Axe",
+      "Sword",
+      "Bow",
+      "Staff"
+    ],
+    "answer": "Axe"
+  },
+  {
+    "question": "What does Ralsei primarily specialize in?",
+    "options": [
+      "Magic",
+      "Archery",
+      "Stealth",
+      "Heavy weapons"
+    ],
+    "answer": "Magic"
+  },
+  {
+    "question": "What is the name of Kris's mother?",
+    "options": [
+      "Toriel",
+      "Undyne",
+      "Alphys",
+      "Noelle"
+    ],
+    "answer": "Toriel"
+  },
+  {
+    "question": "What is Toriel's occupation?",
+    "options": [
+      "Teacher",
+      "Doctor",
+      "Police officer",
+      "Shopkeeper"
+    ],
+    "answer": "Teacher"
+  },
+  {
+    "question": "Who is Noelle?",
+    "options": [
+      "Kris's classmate",
+      "Kris's sibling",
+      "A Darkner",
+      "A shopkeeper"
+    ],
+    "answer": "Kris's classmate"
+  },
+  {
+    "question": "What is Berdly known for being good at?",
+    "options": [
+      "Academics",
+      "Cooking",
+      "Sports",
+      "Music"
+    ],
+    "answer": "Academics"
+  },
+  {
+    "question": "Who is the teacher of Kris, Susie, Noelle, and Berdly?",
+    "options": [
+      "Alphys",
+      "Toriel",
+      "Undyne",
+      "Rudy"
+    ],
+    "answer": "Alphys"
+  },
+  {
+    "question": "What is the name of the town where Kris lives?",
+    "options": [
+      "Hometown",
+      "Castle Town",
+      "Card Kingdom",
+      "Cyber City"
+    ],
+    "answer": "Hometown"
+  },
+  {
+    "question": "What happens when Kris and Susie enter the supply closet?",
+    "options": [
+      "They fall into a Dark World",
+      "They find a treasure chest",
+      "They meet Asriel",
+      "They fight Undyne"
+    ],
+    "answer": "They fall into a Dark World"
+  },
+  {
+    "question": "What are Dark Worlds created around?",
+    "options": [
+      "Dark Fountains",
+      "Magic crystals",
+      "Ancient weapons",
+      "Monster villages"
+    ],
+    "answer": "Dark Fountains"
+  },
+  {
+    "question": "What is Castle Town?",
+    "options": [
+      "A Dark World settlement",
+      "A human city",
+      "A school",
+      "A shop"
+    ],
+    "answer": "A Dark World settlement"
+  },
+  {
+    "question": "Who is Jevil?",
+    "options": [
+      "A secret boss",
+      "A teacher",
+      "A shopkeeper",
+      "A member of the main party"
+    ],
+    "answer": "A secret boss"
+  },
+  {
+    "question": "What does Jevil claim he is able to do?",
+    "options": [
+      "Do anything",
+      "Control time",
+      "Create Dark Fountains",
+      "Become human"
+    ],
+    "answer": "Do anything"
+  },
+  {
+    "question": "What is Spamton?",
+    "options": [
+      "A Darkner",
+      "A human",
+      "A monster from Hometown",
+      "A member of the police"
+    ],
+    "answer": "A Darkner"
+  },
+  {
+    "question": "What is Spamton's famous phrase?",
+    "options": [
+      "BIG SHOT",
+      "DARK KING",
+      "CHAOS TIME",
+      "NUMBER ONE"
+    ],
+    "answer": "BIG SHOT"
+  },
+  {
+    "question": "Where does Spamton live in Chapter 2?",
+    "options": [
+      "The Trash Zone",
+      "Castle Town",
+      "Card Castle",
+      "The School"
+    ],
+    "answer": "The Trash Zone"
+  },
+  {
+    "question": "Who is Queen?",
+    "options": [
+      "The ruler of the Cyber World",
+      "A teacher",
+      "A human",
+      "A member of the Fun Gang"
+    ],
+    "answer": "The ruler of the Cyber World"
+  },
+  {
+    "question": "What does Queen frequently drink?",
+    "options": [
+      "Battery acid",
+      "Coffee",
+      "Tea",
+      "Hot chocolate"
+    ],
+    "answer": "Battery acid"
+  },
+  {
+    "question": "What is the name of Queen's mansion?",
+    "options": [
+      "Queen's Mansion",
+      "Card Castle",
+      "Cyber Castle",
+      "Royal Palace"
+    ],
+    "answer": "Queen's Mansion"
+  },
+  {
+    "question": "Who is Rudy?",
+    "options": [
+      "Noelle's father",
+      "Berdly's father",
+      "Kris's father",
+      "Susie's father"
+    ],
+    "answer": "Noelle's father"
+  },
+  {
+    "question": "What animal-like character is Mayor Holiday?",
+    "options": [
+      "A reindeer",
+      "A goat",
+      "A cat",
+      "A bird"
+    ],
+    "answer": "A reindeer"
+  },
+  {
+    "question": "Who is Asgore?",
+    "options": [
+      "Kris's father",
+      "Toriel's brother",
+      "A Darkner",
+      "A teacher"
+    ],
+    "answer": "Kris's father"
+  },
+  {
+    "question": "What is the name of Asgore's flower shop?",
+    "options": [
+      "Flower Shop",
+      "Golden Flowers",
+      "Asgore's Flowers",
+      "Floral Kingdom"
+    ],
+    "answer": "Flower Shop"
+  }
+]
