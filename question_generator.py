@@ -10,7 +10,7 @@ def randomData(data:dict, key: str, multiple) -> str:
     if key not in character:
         return ""
 
-    if multiple:
+    if multiple and not isinstance(character[key], str):
         attributes = character[key]
         return attributes[rand.randrange(0, len(attributes))]
     
@@ -26,7 +26,6 @@ def separate(text:str):
 
     x, y = text.split(" (", 1)
     y = y.rstrip(")")
-
     return x, y
 
 def generateRelationshipQuestion(data:dict, character:str):
@@ -112,6 +111,10 @@ def generateLocationQuestion(data:dict, character:str):
     places = data[character]["Appearances"]
     place = places[rand.randrange(0, len(places))]
 
+    if isinstance(places, str):
+        place = places
+
+    print(f"PLACE: {place}, PLACES: {places}")
     
     options = [f"{place}"]
 
@@ -135,7 +138,7 @@ def generateLocationQuestion(data:dict, character:str):
         options.append(new_option)
 
     newQuestion = {
-        "question": f"Where does {character} appears?",
+        "question": f"Where does {character} appear?",
         "answer": f"{place}",
         "options": options
     }
