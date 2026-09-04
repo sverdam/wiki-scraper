@@ -11,6 +11,8 @@ from urllib.error import HTTPError, URLError
 import json
 import time
 
+from question_generator import generate
+
 url = "https://deltarune.wiki/"
 characters = []
 data = {}
@@ -108,6 +110,7 @@ def saveData():
 
 links = getLinks(getSoup(url))
 jumpsSinceLastSuccess = 0
+
 while len(characters) < 15:
 
         print(f"[{len(characters)}] {url}", end='\t')
@@ -145,4 +148,8 @@ for l in characters:
 
 print("JSON")
 saveData()
+
+print("\n\n\n\nQUESTIONS")
+
+generate(data)
 
