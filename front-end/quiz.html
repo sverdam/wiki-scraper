@@ -50,6 +50,7 @@
         <button id="next" onclick="nextQuestion()">Next</button>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script>
         let questions = [];
         let quizQuestions = [];
@@ -211,6 +212,20 @@
             quiz.style.display = "none";
             tools.style.display = "none";
             submitScreen.style.display = "none";
+
+            if (score >= quizQuestions.length - 2) {
+                confetti({
+                    particleCount: 200,
+                    spread: 100,
+                    origin: { y: 0.6 }
+                });
+            }
+
+            confetti({
+                particleCount: 100,
+                spread: 90,
+                origin: { y: 0.6 }
+            });
         }
 
         function calculateScore() {
