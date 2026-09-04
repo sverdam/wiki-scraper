@@ -8,10 +8,12 @@ import re
 from urllib.parse import urljoin
 from urllib.error import HTTPError, URLError
 
+import json
 import time
 
 url = "https://deltarune.wiki/"
 characters = []
+data = {}
 
 def getSoup(aUrl):
     req = Request(
@@ -58,12 +60,58 @@ def isCharacter(aUrl, categories):
         return True
     return False
 
+def addCharacter(character, soup:BeautifulSoup):
+
+    def stripBracket(v:str) -> str:
+        r = v
+        if "[" in v:
+            r = v.split('[')[0]
+        return r
+
+    print(f"\tV--< {character}")
+    tableItems = soup.find_all(class_ = "pi-data")
+    tablesData = {}
+
+    for item in tableItems:
+        key = item.find(class_ = "pi-data-label")
+        value = item.find(class_ = "pi-data-value")
+        if key == None or value == None:
+            continue
+
+        valueList = value.findAll("li")
+        if len(valueList) > 0:
+            vals = []
+            print(f"\t|--> {key.text}:")
+            for li in valueList:
+                val = stripBracket(li.text)
+                
+                print(f"\t.    |--> {val}")
+                vals.append(val)
+            value = vals
+        else:
+            val = stripBracket(value.text)
+            print(f"\t|--> {key.text}: {val}")
+            value = val
+
+        tablesData[key.text] = value
+    data[character] = tablesData
+
+    print("\t.")
+
+
+def saveData():
+    jsonString = json.dumps(data, indent=4, sort_keys=True)
+    print(jsonString)
+
+    with open("characters.json", "w") as json_file:
+        json.dump(data, json_file, indent=4, sort_keys=True)
 
 links = getLinks(getSoup(url))
-
-while len(characters) < 10:
+jumpsSinceLastSuccess = 0
+while len(characters) < 15:
 
         print(f"[{len(characters)}] {url}", end='\t')
+        jumpsSinceLastSuccess += 1
 
         try: 
             soup = getSoup(url)
@@ -79,15 +127,22 @@ while len(characters) < 10:
             split = url.split('/')
             character = split[-1]
             characters.append(character)
+            addCharacter(character, soup)
+            jumpsSinceLastSuccess = 0
 
-        if len(links) <= 0:
+        if len(links) <= 0 or jumpsSinceLastSuccess >= 10:
             url = "https://deltarune.wiki/w/Category:Characters"
+            jumpsSinceLastSuccess = 0
         else:
             nextlink = links[random.randint(0, len(links) - 1)]
             url = urljoin(url, nextlink.attrs['href'])
 
         # time.sleep(0.5)
 
-print("\n\n\nRESULT:")
+print("\n\n\nRESULT:\n")
 for l in characters:
-    print(l)
+    print(f"- {l}")
+
+print("JSON")
+saveData()
+
