@@ -11,6 +11,7 @@ from urllib.error import HTTPError, URLError
 import time
 
 url = "https://deltarune.wiki/"
+characters = []
 
 def getSoup(aUrl):
     req = Request(
@@ -46,15 +47,26 @@ def getSections(bs):
 
 links = getLinks(getSoup(url))
 
-while len(links) > 0:
+while len(characters) < 10:
 
-        print(f"{url}", end='\t')
+        print(f"[{len(characters)}] {url}", end='\t')
 
-        soup = getSoup(url)
+        try: 
+            soup = getSoup(url)
+        except HTTPError:
+            url = "https://deltarune.wiki/w/Category:Characters"
+            continue
 
         links = getLinks(soup)
         print(f"({len(links)})")
         categories = getSections(soup)
+
+        if "Characters" in categories or "Main characters" in categories:
+            split = url.split('/')
+            if len(split) > 0:
+                charater = split[-1]
+                if not(character in characters) and not ("Category" in character):
+                    characters.append(character)
 
         if len(links) <= 0:
             url = "https://deltarune.wiki/w/Category:Characters"
@@ -62,5 +74,8 @@ while len(links) > 0:
             nextlink = links[random.randint(0, len(links) - 1)]
             url = urljoin(url, nextlink.attrs['href'])
 
-        time.sleep(0.5)
+        # time.sleep(0.5)
 
+print("\n\n\nRESULT:")
+for l in characters:
+    print(l)
