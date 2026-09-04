@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deltarune Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container" id="quiz">
+        <div class="question" id="question">
+            <p>THIS IS THE QUESTION</p>
+        </div>
+
+        <div class="option-container">
+            <div class="option" onclick="selectOption(this)">
+                <p></p>
+            </div>
+            <div class="option" onclick="selectOption(this)">
+                <p></p>
+            </div>
+            <div class="option" onclick="selectOption(this)">
+                <p></p>
+            </div>
+            <div class="option" onclick="selectOption(this)">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="submit-screen" style="display: none;">
+        <h1>Thank you for completing the quiz!</h1>
+        <button onclick="prevQuestion()">I wasn't finished...</button>
+        <button id="submit" onclick="showResults()">Submit</button>
+    </div>
+
+    <div class="container" id="results-screen" style="display: none;">
+        <h1>Results</h1>
+        <p id="score"></p>
+    </div>
+
+    <div id="tools">
+        <button id="prev" onclick="prevQuestion()">Previous</button>
+
+        <div id="progress-dots"></div>
+
+        <button id="next" onclick="nextQuestion()">Next</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script>
+        let questions = [];
+        let quizQuestions = [];
+        let position = 0;
+        let selectedOptions = [];
+
+        const questionAmount = 5;
+
+        const quiz = document.getElementById("quiz");
+        const tools = document.getElementById("tools");
+        const submitScreen = document.getElementById("submit-screen");
+        const question = document.getElementById("question");
+        const options = document.querySelectorAll(".option");
+        const nextButton = document.getElementById("next");
+        const prevButton = document.getElementById("prev");
+        const submitButton = document.getElementById("submit");
+        const resultsScreen = document.getElementById("results-screen");
+        const scoreElement = document.getElementById("score");
+
+        async function loadQuestions() {
+            try {
+                const response = await fetch("../dummyQuestions.json");
+
+                if (!response.ok) {
+                    throw new Error("Could not load json");
+                }
+
+                questions = await response.json();
+
+                quizQuestions = [...questions]
+                    .sort(() => Math.random() - 0.5)
+                    .slice(0, questionAmount);
+
+                displayProgressDots();
+                displayQuestion();
+            } catch (error) {
+                console.error(error);
+                question.innerHTML = "<p>Failed to load questions.</p>";
+            }
+        }
+
+        function displayQuestion() {
+            const currentQuestion = quizQuestions[position];
+
+            question.innerHTML = `<p>${currentQuestion.question}</p>`;
+
+            options.forEach((option, index) => {
+                option.innerHTML = `<p>${currentQuestion.options[index]}</p>`;
+            });
+
+            updateSelectedOption();
+        }
+
+        function selectOption(option) {
+            options.forEach(opt => {
+                opt.classList.remove("selected");
+            });
+
+            option.classList.add("selected");
+
+            selectedOptions[position] = option.innerText;
+        }
+
+        function updateSelectedOption() {
+            options.forEach(option => {
+                option.classList.remove("selected");
+            });
+
+            const selected = selectedOptions[position];
+
+            if (!selected) {
+                return;
+            }
+
+            options.forEach(option => {
+                if (option.innerText === selected) {
+                    option.classList.add("selected");
+                }
+            });
+        }
+
+        function nextQuestion() {
+            if (position === quizQuestions.length - 1) {
+                if (
+                    selectedOptions.length < quizQuestions.length ||
+                    selectedOptions.some(answer => answer === undefined)
+                ) {
+                    alert("Please answer all questions before submitting.");
+                    return;
+                }
+
+                showSubmitPage();
+                return;
+            }
+
+            position++;
+            displayQuestion();
+            updateProgressDots();
+        }
+
+        function prevQuestion() {
+            if (position === 0) {
+                return;
+            }
+
+            position--;
+
+            displayQuestion();
+            updateProgressDots();
+            hideSubmitPage();
+        }
+
+        function displayProgressDots() {
+            const progressDots = document.getElementById("progress-dots");
+
+            progressDots.innerHTML = "";
+
+            for (let i = 0; i < quizQuestions.length; i++) {
+                const dot = document.createElement("div");
+
+                dot.classList.add("dot");
+
+                if (i === position) {
+                    dot.classList.add("active");
+                }
+
+                progressDots.appendChild(dot);
+            }
+        }
+
+        function updateProgressDots() {
+            const progressDots = document.querySelectorAll(".dot");
+
+            progressDots.forEach((dot, index) => {
+                if (index === position) {
+                    dot.classList.add("active");
+                } else {
+                    dot.classList.remove("active");
+                }
+            });
+        }
+
+        function showSubmitPage() {
+            quiz.style.display = "none";
+            tools.style.display = "none";
+            submitScreen.style.display = "block";
+        }
+
+        function hideSubmitPage() {
+            quiz.style.display = "block";
+            tools.style.display = "flex";
+            submitScreen.style.display = "none";
+        }
+
+        function showResults() {
+            const score = calculateScore();
+            scoreElement.innerText = `You got ${score} out of ${quizQuestions.length} correct!`;
+            resultsScreen.style.display = "block";
+            quiz.style.display = "none";
+            tools.style.display = "none";
+            submitScreen.style.display = "none";
+
+            if (score >= quizQuestions.length - 2) {
+                confetti({
+                    particleCount: 200,
+                    spread: 100,
+                    origin: { y: 0.6 }
+                });
+            }
+
+            confetti({
+                particleCount: 100,
+                spread: 90,
+                origin: { y: 0.6 }
+            });
+        }
+
+        function calculateScore() {
+            let score = 0;
+
+            for (let i = 0; i < quizQuestions.length; i++) {
+                if (selectedOptions[i] === quizQuestions[i].answer) {
+                    score++;
+                }
+            }
+
+            return score;
+        }
+
+
+        loadQuestions();
+    </script>
+</body>
+</html>
