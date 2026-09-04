@@ -157,7 +157,7 @@ def generateQuestion(data:dict, character:str, field:str):
 
 def generate(data:dict):
     questions = []
-    multiplier = 5
+    multiplier = 6
     for i in range(multiplier):
         for character in data.keys():
             for field in data[character].keys():
