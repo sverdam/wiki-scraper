@@ -28,12 +28,12 @@ def getSoup(aUrl):
     bs = BeautifulSoup(html.read(), "html.parser")
     return bs
 
-def getLinks(aUrl):
-    bs = getSoup(aUrl)
+def getLinks(bs):
+    #bs = getSoup(soup)
     return bs.find('div').find_all('a')
 
-def getSections(aUrl):
-    bs = getSoup(aUrl)
+def getSections(bs):
+    # bs = getSoup(aUrl)
     categoryDiv = bs.find(class_="utw-page-categories")
     if categoryDiv == None:
         return []
@@ -44,18 +44,23 @@ def getSections(aUrl):
     print(categories, end='\n\n')
     return categories
 
-links = getLinks(url)
+links = getLinks(getSoup(url))
 
 while len(links) > 0:
-        link = links[random.randint(0, len(links) - 1)]
-        newArticle = urljoin(url, link.attrs['href'])
 
-        print(newArticle, end='\t')
+        print(f"{url}", end='\t')
 
-        url = newArticle
-        links = getLinks(url)
-        print(f'({len(links)})')
+        soup = getSoup(url)
 
-        getSections(newArticle)
+        links = getLinks(soup)
+        print(f"({len(links)})")
+        categories = getSections(soup)
+
+        if len(links) <= 0:
+            url = "https://deltarune.wiki/w/Category:Characters"
+        else:
+            nextlink = links[random.randint(0, len(links) - 1)]
+            url = urljoin(url, nextlink.attrs['href'])
+
         time.sleep(0.5)
 
