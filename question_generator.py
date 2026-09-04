@@ -2,12 +2,6 @@
 import random as rand
 import json
 
-# def getDummyAnswer(data:dict, key):
-#     for character in data.keys():
-#         if key in data[character]:
-#             print(f'{character}[{key}]')
-#             print(data[character][key])
-
 def randomData(data:dict, key: str, multiple) -> str:
 
     characters = list(data.keys())
@@ -23,7 +17,6 @@ def randomData(data:dict, key: str, multiple) -> str:
     return character[key]
 
 def separate(text:str):
-    print(f"RAW TEXT <{text}>")
     text = str(text)
     if "(" not in text:
         return text, "" 
@@ -42,14 +35,11 @@ def generateRelationshipQuestion(data:dict, character:str):
     rel = separate(randomRelationShip)
 
     if (rel[1] == ""):
-        print("BAD RELATIONSHIP")
         return {}
 
     if "\u00e9" in rel[1]:
-        print("BAD RELATIONSHIP")
         return {}
 
-    print("RELATIONSHIP: ", rel)
     options = [f"{rel[1]}"]
 
     giveUpIn = 200
@@ -57,11 +47,11 @@ def generateRelationshipQuestion(data:dict, character:str):
         if giveUpIn <= 0:
             return {}
         giveUpIn -= 1
-        
+
         new_option = randomData(data, "Relationships", True)
         new_option = separate(new_option)[1]
 
-        if new_option == "" or new_option == "u00e9":
+        if new_option == "" or "\u00e9" in new_option:
             continue
 
         if new_option in options:
@@ -79,20 +69,17 @@ def generateRelationshipQuestion(data:dict, character:str):
     return newQuestion
 
 
-def generateAKA(data:dict, character:str):
+def generateAKAQuestion(data:dict, character:str):
     relationships = data[character]["Also known as"]
     randomRelationShip = relationships[rand.randrange(0, len(relationships))]
     rel = separate(randomRelationShip)
 
     if (rel[1] == ""):
-        print("BAD Also known as")
         return {}
 
     if "\u00e9" in rel[1]:
-        print("BAD Also known as")
         return {}
-
-    print("AKA: ", rel)
+    
     options = [f"{rel[1]}"]
 
     giveUpIn = 200
@@ -104,7 +91,7 @@ def generateAKA(data:dict, character:str):
         new_option = randomData(data, "Also known as", True)
         new_option = separate(new_option)[1]
 
-        if new_option == "" or new_option == "u00e9":
+        if new_option == "" or "\u00e9" in new_option:
             continue
 
         if new_option in options:
@@ -136,7 +123,7 @@ def generateLocationQuestion(data:dict, character:str):
 
         new_option = randomData(data, "Appearances", True)
 
-        if new_option == "" or new_option == "u00e9":
+        if new_option == "" or "\u00e9" in new_option:
             continue
 
         if new_option in options:
@@ -160,7 +147,7 @@ def generateQuestion(data:dict, character:str, field:str):
         return generateRelationshipQuestion(data, character)
 
     if field == "Also known as":
-        return generateAKA(data, character)
+        return generateAKAQuestion(data, character)
 
     if field == "Appearances":
         return generateLocationQuestion(data, character)
@@ -171,7 +158,7 @@ def generateQuestion(data:dict, character:str, field:str):
 def generate(data:dict):
     questions = []
     multiplier = 5
-    for i in range(4):
+    for i in range(multiplier):
         for character in data.keys():
             for field in data[character].keys():
                 newQuestion = generateQuestion(data, character, field)
@@ -187,28 +174,5 @@ def generate(data:dict):
 
 
 def saveData(data):
-    jsonString = json.dumps(data, indent=4, sort_keys=True)
-    print(jsonString)
-
     with open("questions.json", "w") as json_file:
         json.dump(data, json_file, indent=4, sort_keys=True)
-
-# RELATIONSHIP
-# quien es el hermano de este personaje?
-# X es el que cosa de este personaje?
-
-# ALSO KNOWN AS
-# 
-
-# PRONOUNS
-
-
-
-#   question: "lol?",
-#         options: [
-#             "A",
-#             "B",
-#             "C",
-#             "D"
-#         ],
-#         answer: "D"

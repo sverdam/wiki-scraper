@@ -140,16 +140,12 @@ while len(characters) < 15:
             nextlink = links[random.randint(0, len(links) - 1)]
             url = urljoin(url, nextlink.attrs['href'])
 
-        # time.sleep(0.5)
-
 print("\n\n\nRESULT:\n")
 for l in characters:
     print(f"- {l}")
 
-print("JSON")
+print("\nJSON:\n")
 saveData()
-
-print("\n\n\n\nQUESTIONS")
 
 generate(data)
 
